@@ -1,4 +1,5 @@
 /home/ka2e/ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_data
+/home/ka2e/ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_behavior
 /home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
 /home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
 /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh

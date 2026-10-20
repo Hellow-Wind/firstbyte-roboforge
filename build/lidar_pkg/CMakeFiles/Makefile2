@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/ka2e/ros2_ws/build/lidar_pkg
 
 # The main recursive "all" target.
 all: CMakeFiles/lidar_data.dir/all
+all: CMakeFiles/lidar_behavior.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/lidar_pkg_uninstall.dir/clean
 clean: CMakeFiles/lidar_data.dir/clean
+clean: CMakeFiles/lidar_behavior.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/lidar_pkg_uninstall.dir/clean:
 CMakeFiles/lidar_data.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_data.dir/build.make CMakeFiles/lidar_data.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_data.dir/build.make CMakeFiles/lidar_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ka2e/ros2_ws/build/lidar_pkg/CMakeFiles --progress-num=1,2 "Built target lidar_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ka2e/ros2_ws/build/lidar_pkg/CMakeFiles --progress-num=3,4 "Built target lidar_data"
 .PHONY : CMakeFiles/lidar_data.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ lidar_data: CMakeFiles/lidar_data.dir/rule
 CMakeFiles/lidar_data.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_data.dir/build.make CMakeFiles/lidar_data.dir/clean
 .PHONY : CMakeFiles/lidar_data.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lidar_behavior.dir
+
+# All Build rule for target.
+CMakeFiles/lidar_behavior.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_behavior.dir/build.make CMakeFiles/lidar_behavior.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_behavior.dir/build.make CMakeFiles/lidar_behavior.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ka2e/ros2_ws/build/lidar_pkg/CMakeFiles --progress-num=1,2 "Built target lidar_behavior"
+.PHONY : CMakeFiles/lidar_behavior.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lidar_behavior.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka2e/ros2_ws/build/lidar_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lidar_behavior.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka2e/ros2_ws/build/lidar_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/lidar_behavior.dir/rule
+
+# Convenience name for target.
+lidar_behavior: CMakeFiles/lidar_behavior.dir/rule
+.PHONY : lidar_behavior
+
+# clean rule for target.
+CMakeFiles/lidar_behavior.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_behavior.dir/build.make CMakeFiles/lidar_behavior.dir/clean
+.PHONY : CMakeFiles/lidar_behavior.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

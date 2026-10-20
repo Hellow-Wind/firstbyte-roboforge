@@ -12,11 +12,15 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(lidar_data src/lidar_data.cpp)
 ament_target_dependencies(lidar_data "rclcpp" "sensor_msgs")
 
-install(TARGETS lidar_data
+add_executable(lidar_behavior src/lidar_behavior.cpp)
+ament_target_dependencies(lidar_behavior "rclcpp" "sensor_msgs" "geometry_msgs")
+
+install(TARGETS lidar_data lidar_behavior
 DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,4 @@
+Invoking command in '/home/ka2e/ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/lidar_pkg -- -j24 -l24
+Invoked command in '/home/ka2e/ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/lidar_pkg -- -j24 -l24
+Invoking command in '/home/ka2e/ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/lidar_pkg
+Invoked command in '/home/ka2e/ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/lidar_pkg

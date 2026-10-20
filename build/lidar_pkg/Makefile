@@ -210,6 +210,43 @@ lidar_data/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_data.dir/build.make CMakeFiles/lidar_data.dir/build
 .PHONY : lidar_data/fast
 
+#=============================================================================
+# Target rules for targets named lidar_behavior
+
+# Build rule for target.
+lidar_behavior: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lidar_behavior
+.PHONY : lidar_behavior
+
+# fast build rule for target.
+lidar_behavior/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_behavior.dir/build.make CMakeFiles/lidar_behavior.dir/build
+.PHONY : lidar_behavior/fast
+
+src/lidar_behavior.o: src/lidar_behavior.cpp.o
+.PHONY : src/lidar_behavior.o
+
+# target to build an object file
+src/lidar_behavior.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_behavior.dir/build.make CMakeFiles/lidar_behavior.dir/src/lidar_behavior.cpp.o
+.PHONY : src/lidar_behavior.cpp.o
+
+src/lidar_behavior.i: src/lidar_behavior.cpp.i
+.PHONY : src/lidar_behavior.i
+
+# target to preprocess a source file
+src/lidar_behavior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_behavior.dir/build.make CMakeFiles/lidar_behavior.dir/src/lidar_behavior.cpp.i
+.PHONY : src/lidar_behavior.cpp.i
+
+src/lidar_behavior.s: src/lidar_behavior.cpp.s
+.PHONY : src/lidar_behavior.s
+
+# target to generate assembly for a file
+src/lidar_behavior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_behavior.dir/build.make CMakeFiles/lidar_behavior.dir/src/lidar_behavior.cpp.s
+.PHONY : src/lidar_behavior.cpp.s
+
 src/lidar_data.o: src/lidar_data.cpp.o
 .PHONY : src/lidar_data.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... lidar_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... lidar_behavior"
 	@echo "... lidar_data"
+	@echo "... src/lidar_behavior.o"
+	@echo "... src/lidar_behavior.i"
+	@echo "... src/lidar_behavior.s"
 	@echo "... src/lidar_data.o"
 	@echo "... src/lidar_data.i"
 	@echo "... src/lidar_data.s"

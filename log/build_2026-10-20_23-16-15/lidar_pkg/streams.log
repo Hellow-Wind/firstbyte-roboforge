@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/ka2e/ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/lidar_pkg -- -j24 -l24
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target lidar_behavior[0m
+[0.050s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_behavior.dir/src/lidar_behavior.cpp.o[0m
+[0.050s] [ 75%] Built target lidar_data
+[3.636s] [100%] [32m[1mLinking CXX executable lidar_behavior[0m
+[3.814s] [100%] Built target lidar_behavior
+[3.824s] Invoked command in '/home/ka2e/ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/lidar_pkg -- -j24 -l24
+[3.824s] Invoking command in '/home/ka2e/ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/lidar_pkg
+[3.828s] -- Install configuration: ""
+[3.828s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_data
+[3.828s] -- Installing: /home/ka2e/ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_behavior
+[3.831s] -- Set runtime path of "/home/ka2e/ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_behavior" to ""
+[3.831s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+[3.831s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+[3.831s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+[3.831s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+[3.831s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+[3.832s] -- Installing: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/package.dsv
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+[3.832s] -- Up-to-date: /home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/package.xml
+[3.832s] Invoked command in '/home/ka2e/ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/lidar_pkg
