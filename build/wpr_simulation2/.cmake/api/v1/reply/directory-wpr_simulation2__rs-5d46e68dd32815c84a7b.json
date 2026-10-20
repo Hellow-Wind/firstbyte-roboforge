@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "wpr_simulation2__rs",
+		"source" : "/home/ka2e/ros2_ws/build/wpr_simulation2/wpr_simulation2__rs"
+	}
+}

@@ -1,0 +1,480 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (my_pkg) JobQueued: {'identifier': 'my_pkg', 'dependencies': OrderedDict()}
+[0.000383] (topic_pkg) JobQueued: {'identifier': 'topic_pkg', 'dependencies': OrderedDict()}
+[0.000476] (wpr_simulation2) JobQueued: {'identifier': 'wpr_simulation2', 'dependencies': OrderedDict()}
+[0.000505] (my_pkg) JobStarted: {'identifier': 'my_pkg'}
+[0.004981] (topic_pkg) JobStarted: {'identifier': 'topic_pkg'}
+[0.007201] (wpr_simulation2) JobStarted: {'identifier': 'wpr_simulation2'}
+[0.015404] (my_pkg) JobProgress: {'identifier': 'my_pkg', 'progress': 'cmake'}
+[0.015482] (my_pkg) JobProgress: {'identifier': 'my_pkg', 'progress': 'build'}
+[0.015520] (my_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ka2e/ros2_ws/build/my_pkg', '--', '-j24', '-l24'], 'cwd': '/home/ka2e/ros2_ws/build/my_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1895'), ('SYSTEMD_EXEC_PID', '2355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10657'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:2534'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2175,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2175'), ('INVOCATION_ID', 'bb86fdfbebc5469ba15f432b4b503e3e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1f7d6dc1-ec31-4275-aa28-7f7ff83004d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/my_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.017936] (topic_pkg) JobProgress: {'identifier': 'topic_pkg', 'progress': 'cmake'}
+[0.019181] (topic_pkg) JobProgress: {'identifier': 'topic_pkg', 'progress': 'build'}
+[0.020096] (topic_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ka2e/ros2_ws/build/topic_pkg', '--', '-j24', '-l24'], 'cwd': '/home/ka2e/ros2_ws/build/topic_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1895'), ('SYSTEMD_EXEC_PID', '2355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10657'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:2534'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2175,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2175'), ('INVOCATION_ID', 'bb86fdfbebc5469ba15f432b4b503e3e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1f7d6dc1-ec31-4275-aa28-7f7ff83004d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/topic_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024247] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'cmake'}
+[0.026363] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'build'}
+[0.027143] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ka2e/ros2_ws/build/wpr_simulation2', '--', '-j24', '-l24'], 'cwd': '/home/ka2e/ros2_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1895'), ('SYSTEMD_EXEC_PID', '2355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10657'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:2534'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2175,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2175'), ('INVOCATION_ID', 'bb86fdfbebc5469ba15f432b4b503e3e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1f7d6dc1-ec31-4275-aa28-7f7ff83004d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068627] (topic_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_node\x1b[0m\n'}
+[0.068986] (topic_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher_node\x1b[0m\n'}
+[0.081562] (my_pkg) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.090492] (topic_pkg) StdoutLine: {'line': b'[ 50%] Built target publisher_node\n'}
+[0.091803] (topic_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[0.099637] (-) TimerEvent: {}
+[0.104259] (my_pkg) CommandEnded: {'returncode': 0}
+[0.105536] (wpr_simulation2) StdoutLine: {'line': b'[  1%] Built target wpr_simulation2__rs\n'}
+[0.105984] (wpr_simulation2) StdoutLine: {'line': b'[  3%] Built target 9_cv_follow\n'}
+[0.106561] (wpr_simulation2) StdoutLine: {'line': b'[  6%] Built target wpb_home_mani_sim\n'}
+[0.106665] (my_pkg) JobProgress: {'identifier': 'my_pkg', 'progress': 'install'}
+[0.106700] (wpr_simulation2) StdoutLine: {'line': b'[  8%] Built target keyboard_vel_cmd\n'}
+[0.107274] (wpr_simulation2) StdoutLine: {'line': b'[ 11%] Built target 8_waypoint_navigation\n'}
+[0.107393] (wpr_simulation2) StdoutLine: {'line': b'[ 15%] Built target wpr_simulation2__rosidl_generator_c\n'}
+[0.108716] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] Built target wpr_simulation2__cpp\n'}
+[0.111059] (wpr_simulation2) StdoutLine: {'line': b'[ 18%] Built target 3_my_node\n'}
+[0.111199] (wpr_simulation2) StdoutLine: {'line': b'[ 21%] Built target 4_velocity_command\n'}
+[0.111256] (wpr_simulation2) StdoutLine: {'line': b'[ 23%] Built target ball_random_move\n'}
+[0.114205] (wpr_simulation2) StdoutLine: {'line': b'[ 26%] Built target 3_publisher_node\n'}
+[0.114331] (wpr_simulation2) StdoutLine: {'line': b'[ 28%] Built target 9_cv_hsv\n'}
+[0.114430] (wpr_simulation2) StdoutLine: {'line': b'[ 28%] Built target ament_cmake_python_copy_wpr_simulation2\n'}
+[0.114476] (wpr_simulation2) StdoutLine: {'line': b'[ 31%] Built target 3_subscriber_node\n'}
+[0.115662] (wpr_simulation2) StdoutLine: {'line': b'[ 33%] Built target 5_lidar_data\n'}
+[0.115724] (wpr_simulation2) StdoutLine: {'line': b'[ 36%] Built target 9_cv_face_detect\n'}
+[0.115770] (wpr_simulation2) StdoutLine: {'line': b'[ 38%] Built target 9_cv_image\n'}
+[0.118539] (my_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ka2e/ros2_ws/build/my_pkg'], 'cwd': '/home/ka2e/ros2_ws/build/my_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1895'), ('SYSTEMD_EXEC_PID', '2355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10657'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:2534'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2175,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2175'), ('INVOCATION_ID', 'bb86fdfbebc5469ba15f432b4b503e3e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1f7d6dc1-ec31-4275-aa28-7f7ff83004d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/my_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.119998] (wpr_simulation2) StdoutLine: {'line': b'[ 41%] Built target 11_mani_ctrl\n'}
+[0.120127] (wpr_simulation2) StdoutLine: {'line': b'[ 43%] Built target 6_imu_data\n'}
+[0.121555] (wpr_simulation2) StdoutLine: {'line': b'[ 46%] Built target 12_fetch\n'}
+[0.121790] (wpr_simulation2) StdoutLine: {'line': b'[ 50%] Built target 5_lidar_behavior\n'}
+[0.122708] (wpr_simulation2) StdoutLine: {'line': b'[ 51%] Built target 6_imu_behavior\n'}
+[0.126790] (wpr_simulation2) StdoutLine: {'line': b'[ 53%] Built target 10_pc_data\n'}
+[0.131557] (wpr_simulation2) StdoutLine: {'line': b'[ 57%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp\n'}
+[0.132048] (my_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.132180] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/lib/my_pkg/my_node\n'}
+[0.132239] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/package_run_dependencies/my_pkg\n'}
+[0.132291] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/parent_prefix_path/my_pkg\n'}
+[0.132362] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/ament_prefix_path.sh\n'}
+[0.132406] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/ament_prefix_path.dsv\n'}
+[0.132446] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/path.sh\n'}
+[0.132482] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/path.dsv\n'}
+[0.132515] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.bash\n'}
+[0.132551] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.sh\n'}
+[0.132584] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.zsh\n'}
+[0.132617] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.dsv\n'}
+[0.132650] (my_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.dsv\n'}
+[0.132681] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/packages/my_pkg\n'}
+[0.132715] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake\n'}
+[0.132747] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake\n'}
+[0.132779] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.xml\n'}
+[0.132811] (wpr_simulation2) StdoutLine: {'line': b'[ 61%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c\n'}
+[0.135359] (wpr_simulation2) StdoutLine: {'line': b'[ 65%] Built target wpr_simulation2__rosidl_typesupport_introspection_c\n'}
+[0.136556] (my_pkg) CommandEnded: {'returncode': 0}
+[0.137250] (wpr_simulation2) StdoutLine: {'line': b'[ 68%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.138339] (wpr_simulation2) StdoutLine: {'line': b'[ 71%] Built target 10_pc_objects\n'}
+[0.138428] (wpr_simulation2) StdoutLine: {'line': b'[ 75%] Built target wpr_simulation2__rosidl_typesupport_c\n'}
+[0.138477] (wpr_simulation2) StdoutLine: {'line': b'[ 78%] Built target wpr_simulation2__rosidl_typesupport_cpp\n'}
+[0.142345] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target demo_nav2_client\n'}
+[0.151771] (my_pkg) JobEnded: {'identifier': 'my_pkg', 'rc': 0}
+[0.161618] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target wpr_simulation2\n'}
+[0.168939] (wpr_simulation2) StdoutLine: {'line': b'[ 83%] Built target 11_grab_object\n'}
+[0.170478] (wpr_simulation2) StdoutLine: {'line': b'[ 86%] Built target grab_object_sim\n'}
+[0.179428] (wpr_simulation2) StdoutLine: {'line': b'[ 88%] Built target objects_publisher\n'}
+[0.183255] (wpr_simulation2) StdoutLine: {'line': b'[ 90%] Built target wpr_simulation2__py\n'}
+[0.199717] (-) TimerEvent: {}
+[0.206472] (wpr_simulation2) StdoutLine: {'line': b'[ 92%] Built target wpr_simulation2__rosidl_generator_py\n'}
+[0.227724] (wpr_simulation2) StdoutLine: {'line': b'[ 95%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.230414] (wpr_simulation2) StdoutLine: {'line': b'[ 97%] Built target wpr_simulation2__rosidl_typesupport_c__pyext\n'}
+[0.231318] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.299837] (-) TimerEvent: {}
+[0.311493] (wpr_simulation2) StdoutLine: {'line': b'running egg_info\n'}
+[0.311680] (wpr_simulation2) StdoutLine: {'line': b'writing wpr_simulation2.egg-info/PKG-INFO\n'}
+[0.311741] (wpr_simulation2) StdoutLine: {'line': b'writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt\n'}
+[0.311789] (wpr_simulation2) StdoutLine: {'line': b'writing top-level names to wpr_simulation2.egg-info/top_level.txt\n'}
+[0.313789] (wpr_simulation2) StdoutLine: {'line': b"reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[0.314378] (wpr_simulation2) StdoutLine: {'line': b"writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[0.345850] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_wpr_simulation2_egg\n'}
+[0.362988] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[0.363847] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'install'}
+[0.364800] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ka2e/ros2_ws/build/wpr_simulation2'], 'cwd': '/home/ka2e/ros2_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1895'), ('SYSTEMD_EXEC_PID', '2355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10657'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:2534'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2175,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2175'), ('INVOCATION_ID', 'bb86fdfbebc5469ba15f432b4b503e3e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1f7d6dc1-ec31-4275-aa28-7f7ff83004d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.373240] (wpr_simulation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.373516] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2\n'}
+[0.373641] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.373693] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.373739] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.373826] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h\n'}
+[0.373915] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.373957] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h\n'}
+[0.373995] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h\n'}
+[0.374043] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c\n'}
+[0.374112] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h\n'}
+[0.374188] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh\n'}
+[0.374228] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv\n'}
+[0.374434] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so\n'}
+[0.374641] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.374712] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.374791] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.374854] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.374922] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[0.375144] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.376013] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.376055] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.376093] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.376127] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp\n'}
+[0.376160] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.376194] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp\n'}
+[0.376231] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp\n'}
+[0.376268] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp\n'}
+[0.376303] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp\n'}
+[0.376340] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.376372] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.376413] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.376447] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.376482] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.376519] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps\n'}
+[0.376598] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.376640] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.376676] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.376714] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.376753] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.376797] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[0.376835] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c\n'}
+[0.376876] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so\n'}
+[0.376945] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so\n'}
+[0.376989] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.377046] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.377137] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.377197] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.377244] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp\n'}
+[0.377286] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.377374] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so\n'}
+[0.377469] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh\n'}
+[0.377544] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv\n'}
+[0.377758] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info\n'}
+[0.377804] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.377859] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.377923] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.377996] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.378114] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2\n'}
+[0.378175] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.378238] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.378316] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.378357] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg\n'}
+[0.378471] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c\n'}
+[0.378514] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py\n'}
+[0.378571] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py\n'}
+[0.378609] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c\n'}
+[0.378645] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.378679] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so\n'}
+[0.378714] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py\n'}
+[0.379021] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.399940] (-) TimerEvent: {}
+[0.406826] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...\n"}
+[0.407022] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...\n"}
+[0.411263] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.411372] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.411426] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.411692] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so\n'}
+[0.411877] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/rust_packages/wpr_simulation2\n'}
+[0.411998] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust\n'}
+[0.412175] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src\n'}
+[0.412223] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg\n'}
+[0.412416] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg/rmw.rs\n'}
+[0.412458] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg.rs\n'}
+[0.412496] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/lib.rs\n'}
+[0.412538] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/build.rs\n'}
+[0.412582] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/Cargo.toml\n'}
+[0.412941] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl\n'}
+[0.413024] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[0.413075] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config\n'}
+[0.413125] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml\n'}
+[0.413163] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml\n'}
+[0.413196] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch\n'}
+[0.413229] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py\n'}
+[0.413262] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py\n'}
+[0.413294] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py\n'}
+[0.413326] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py\n'}
+[0.413357] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py\n'}
+[0.413390] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py\n'}
+[0.413422] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py\n'}
+[0.413455] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py\n'}
+[0.413493] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py\n'}
+[0.414231] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py\n'}
+[0.414276] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py\n'}
+[0.414317] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py\n'}
+[0.414354] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py\n'}
+[0.414393] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py\n'}
+[0.414428] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py\n'}
+[0.414462] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py\n'}
+[0.414503] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py\n'}
+[0.414977] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py\n'}
+[0.415027] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py\n'}
+[0.415067] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py\n'}
+[0.415231] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch\n'}
+[0.415273] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py\n'}
+[0.415309] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml\n'}
+[0.415346] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml\n'}
+[0.415379] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py\n'}
+[0.415723] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py\n'}
+[0.415765] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py\n'}
+[0.415801] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py\n'}
+[0.415843] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds\n'}
+[0.415876] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world\n'}
+[0.415908] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world\n'}
+[0.415939] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world\n'}
+[0.415972] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world\n'}
+[0.416005] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world\n'}
+[0.416039] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world\n'}
+[0.416072] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models\n'}
+[0.416105] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model\n'}
+[0.416136] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model\n'}
+[0.416171] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls\n'}
+[0.416202] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model\n'}
+[0.416233] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model\n'}
+[0.417028] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model\n'}
+[0.417071] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model\n'}
+[0.417107] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model\n'}
+[0.417139] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model\n'}
+[0.417172] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model\n'}
+[0.417208] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model\n'}
+[0.417241] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model\n'}
+[0.417274] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model\n'}
+[0.417307] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model\n'}
+[0.417343] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model\n'}
+[0.417378] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model\n'}
+[0.417418] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model\n'}
+[0.417452] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model\n'}
+[0.418190] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model\n'}
+[0.418237] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model\n'}
+[0.418276] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles\n'}
+[0.418310] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model\n'}
+[0.418345] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model\n'}
+[0.418378] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model\n'}
+[0.418414] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model\n'}
+[0.418447] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes\n'}
+[0.418485] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl\n'}
+[0.418516] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table\n'}
+[0.418553] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg\n'}
+[0.418585] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3\n'}
+[0.418615] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae\n'}
+[0.418646] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae\n'}
+[0.418683] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae\n'}
+[0.418713] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2\n'}
+[0.418743] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png\n'}
+[0.418774] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae\n'}
+[0.418803] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai\n'}
+[0.418834] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae\n'}
+[0.418864] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png\n'}
+[0.418894] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae\n'}
+[0.418925] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home\n'}
+[0.418955] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae\n'}
+[0.418985] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae\n'}
+[0.419016] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae\n'}
+[0.419046] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft\n'}
+[0.419077] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg\n'}
+[0.420026] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman\n'}
+[0.420076] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae\n'}
+[0.420112] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png\n'}
+[0.420147] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair\n'}
+[0.420180] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg\n'}
+[0.420212] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1\n'}
+[0.420243] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae\n'}
+[0.420274] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae\n'}
+[0.420310] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae\n'}
+[0.420341] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae\n'}
+[0.420799] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae\n'}
+[0.420848] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae\n'}
+[0.420890] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae\n'}
+[0.420925] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table\n'}
+[0.420959] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg\n'}
+[0.420993] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed\n'}
+[0.421025] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg\n'}
+[0.421056] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg\n'}
+[0.421372] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae\n'}
+[0.421666] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard\n'}
+[0.421777] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg\n'}
+[0.421827] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae\n'}
+[0.421870] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa\n'}
+[0.421911] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg\n'}
+[0.421953] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1\n'}
+[0.421992] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae\n'}
+[0.422046] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png\n'}
+[0.422084] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae\n'}
+[0.422124] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae\n'}
+[0.422343] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz\n'}
+[0.422396] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz\n'}
+[0.422459] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz\n'}
+[0.422760] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz\n'}
+[0.422810] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz\n'}
+[0.422854] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz\n'}
+[0.422890] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz\n'}
+[0.422924] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz\n'}
+[0.422978] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src\n'}
+[0.423013] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp\n'}
+[0.423063] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp\n'}
+[0.423100] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp\n'}
+[0.423136] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp\n'}
+[0.423171] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py\n'}
+[0.423203] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp\n'}
+[0.423238] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg\n'}
+[0.423274] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[0.423309] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps\n'}
+[0.423344] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore\n'}
+[0.423378] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py\n'}
+[0.423417] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim\n'}
+[0.423450] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd\n'}
+[0.423485] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move\n'}
+[0.423517] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher\n'}
+[0.423549] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim\n'}
+[0.423581] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node\n'}
+[0.423612] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node\n'}
+[0.423644] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command\n'}
+[0.423676] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data\n'}
+[0.423710] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior\n'}
+[0.423745] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data\n'}
+[0.423779] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior\n'}
+[0.423877] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation\n'}
+[0.423914] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image\n'}
+[0.423949] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv\n'}
+[0.424001] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow\n'}
+[0.424033] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect\n'}
+[0.424068] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data\n'}
+[0.424106] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects\n'}
+[0.424145] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl\n'}
+[0.424206] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object\n'}
+[0.424243] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch\n'}
+[0.424279] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client\n'}
+[0.424314] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2\n'}
+[0.424349] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2\n'}
+[0.424382] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh\n'}
+[0.424415] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv\n'}
+[0.424447] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh\n'}
+[0.424484] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv\n'}
+[0.424515] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash\n'}
+[0.424545] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh\n'}
+[0.424575] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh\n'}
+[0.424608] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv\n'}
+[0.424638] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv\n'}
+[0.424668] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2\n'}
+[0.424699] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake\n'}
+[0.424736] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.424770] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.424824] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.425082] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake\n'}
+[0.425131] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.425168] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.425203] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.425238] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.425271] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake\n'}
+[0.425304] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.425337] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.425369] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.425406] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake\n'}
+[0.425440] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.425473] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake\n'}
+[0.425507] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.425547] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.425579] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.425611] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.425644] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.425677] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.425712] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.425747] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.425777] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.425807] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake\n'}
+[0.425837] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake\n'}
+[0.425868] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml\n'}
+[0.429071] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[0.443725] (wpr_simulation2) JobEnded: {'identifier': 'wpr_simulation2', 'rc': 0}
+[0.500077] (-) TimerEvent: {}
+[0.602485] (-) TimerEvent: {}
+[0.703606] (-) TimerEvent: {}
+[0.804036] (-) TimerEvent: {}
+[0.904546] (-) TimerEvent: {}
+[1.004973] (-) TimerEvent: {}
+[1.105408] (-) TimerEvent: {}
+[1.205825] (-) TimerEvent: {}
+[1.306305] (-) TimerEvent: {}
+[1.406748] (-) TimerEvent: {}
+[1.507194] (-) TimerEvent: {}
+[1.607642] (-) TimerEvent: {}
+[1.708177] (-) TimerEvent: {}
+[1.808858] (-) TimerEvent: {}
+[1.909286] (-) TimerEvent: {}
+[2.009738] (-) TimerEvent: {}
+[2.110239] (-) TimerEvent: {}
+[2.210697] (-) TimerEvent: {}
+[2.311238] (-) TimerEvent: {}
+[2.411699] (-) TimerEvent: {}
+[2.512254] (-) TimerEvent: {}
+[2.612812] (-) TimerEvent: {}
+[2.713312] (-) TimerEvent: {}
+[2.813752] (-) TimerEvent: {}
+[2.914256] (-) TimerEvent: {}
+[3.014701] (-) TimerEvent: {}
+[3.115229] (-) TimerEvent: {}
+[3.215677] (-) TimerEvent: {}
+[3.316196] (-) TimerEvent: {}
+[3.416664] (-) TimerEvent: {}
+[3.517240] (-) TimerEvent: {}
+[3.617715] (-) TimerEvent: {}
+[3.718264] (-) TimerEvent: {}
+[3.818754] (-) TimerEvent: {}
+[3.919298] (-) TimerEvent: {}
+[4.019739] (-) TimerEvent: {}
+[4.120491] (-) TimerEvent: {}
+[4.221044] (-) TimerEvent: {}
+[4.321578] (-) TimerEvent: {}
+[4.422034] (-) TimerEvent: {}
+[4.522543] (-) TimerEvent: {}
+[4.622959] (-) TimerEvent: {}
+[4.723473] (-) TimerEvent: {}
+[4.823849] (-) TimerEvent: {}
+[4.924334] (-) TimerEvent: {}
+[5.024711] (-) TimerEvent: {}
+[5.125161] (-) TimerEvent: {}
+[5.225579] (-) TimerEvent: {}
+[5.325930] (-) TimerEvent: {}
+[5.426363] (-) TimerEvent: {}
+[5.526735] (-) TimerEvent: {}
+[5.627182] (-) TimerEvent: {}
+[5.727553] (-) TimerEvent: {}
+[5.827893] (-) TimerEvent: {}
+[5.928230] (-) TimerEvent: {}
+[6.028882] (-) TimerEvent: {}
+[6.129216] (-) TimerEvent: {}
+[6.229553] (-) TimerEvent: {}
+[6.329964] (-) TimerEvent: {}
+[6.430477] (-) TimerEvent: {}
+[6.532102] (-) TimerEvent: {}
+[6.632490] (-) TimerEvent: {}
+[6.732896] (-) TimerEvent: {}
+[6.833405] (-) TimerEvent: {}
+[6.933847] (-) TimerEvent: {}
+[6.964120] (topic_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[7.033993] (-) TimerEvent: {}
+[7.134516] (-) TimerEvent: {}
+[7.234942] (-) TimerEvent: {}
+[7.264446] (topic_pkg) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[7.277050] (topic_pkg) CommandEnded: {'returncode': 0}
+[7.277458] (topic_pkg) JobProgress: {'identifier': 'topic_pkg', 'progress': 'install'}
+[7.277483] (topic_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ka2e/ros2_ws/build/topic_pkg'], 'cwd': '/home/ka2e/ros2_ws/build/topic_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1895'), ('SYSTEMD_EXEC_PID', '2355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10657'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:2534'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2175,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2175'), ('INVOCATION_ID', 'bb86fdfbebc5469ba15f432b4b503e3e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1f7d6dc1-ec31-4275-aa28-7f7ff83004d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/topic_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.286486] (topic_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.286581] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/publisher_node\n'}
+[7.286632] (topic_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/subscriber_node\n'}
+[7.290554] (topic_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/subscriber_node" to ""\n'}
+[7.290642] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/package_run_dependencies/topic_pkg\n'}
+[7.290991] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/parent_prefix_path/topic_pkg\n'}
+[7.291041] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.sh\n'}
+[7.291086] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.dsv\n'}
+[7.291126] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.sh\n'}
+[7.291165] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.dsv\n'}
+[7.291202] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.bash\n'}
+[7.291239] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.sh\n'}
+[7.292398] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.zsh\n'}
+[7.292460] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.dsv\n'}
+[7.292502] (topic_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.dsv\n'}
+[7.292541] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/packages/topic_pkg\n'}
+[7.292616] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig.cmake\n'}
+[7.292663] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig-version.cmake\n'}
+[7.295071] (topic_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.xml\n'}
+[7.296102] (topic_pkg) CommandEnded: {'returncode': 0}
+[7.305461] (topic_pkg) JobEnded: {'identifier': 'topic_pkg', 'rc': 0}
+[7.306009] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24
+Invoked command in '/home/ka2e/ros2_ws/build/wpr_simulation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24

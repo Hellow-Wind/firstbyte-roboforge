@@ -1,0 +1,78 @@
+[  2%] Built target wpr_simulation2__cpp
+[  5%] Built target wpr_simulation2__rosidl_generator_c
+[  6%] Built target wpr_simulation2__rs
+[  8%] Built target wpb_home_mani_sim
+[  8%] Built target ament_cmake_python_copy_wpr_simulation2
+[ 12%] Built target 3_my_node
+[ 13%] Built target keyboard_vel_cmd
+[ 17%] Built target 6_imu_data
+[ 20%] Built target 9_cv_image
+[ 21%] Built target ball_random_move
+[ 30%] Built target 9_cv_follow
+[ 30%] Built target 5_lidar_data
+[ 31%] Built target 3_publisher_node
+[ 31%] Built target 6_imu_behavior
+[ 35%] Built target 5_lidar_behavior
+[ 38%] Built target 8_waypoint_navigation
+[ 38%] Built target 3_subscriber_node
+[ 41%] Built target 9_cv_face_detect
+[ 45%] Built target 4_velocity_command
+[ 46%] Built target 9_cv_hsv
+[ 48%] Built target 12_fetch
+[ 51%] Built target 11_mani_ctrl
+[ 53%] Built target 10_pc_data
+[ 60%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[ 60%] Built target demo_nav2_client
+[ 62%] Built target 10_pc_objects
+[ 66%] Built target wpr_simulation2__rosidl_typesupport_c
+[ 72%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[ 73%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[ 77%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[ 81%] Built target wpr_simulation2
+[ 83%] Built target grab_object_sim
+[ 86%] Built target 11_grab_object
+[ 88%] Built target objects_publisher
+[ 90%] Built target wpr_simulation2__py
+[ 92%] Built target wpr_simulation2__rosidl_generator_py
+[ 95%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[100%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing wpr_simulation2.egg-info/PKG-INFO
+writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+writing top-level names to wpr_simulation2.egg-info/top_level.txt
+reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+Traceback (most recent call last):
+  File "/home/ka2e/ros2_ws/build/wpr_simulation2/ament_cmake_python/wpr_simulation2/setup.py", line 4, in <module>
+    setup(
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+    dist.run_commands()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+    self.run_command(cmd)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+    super().run_command(command)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+    cmd_obj.run()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+    self.find_sources()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+    mm.run()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+    self.prune_file_list()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+    super().prune_file_list()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+    base_dir = self.distribution.get_fullname()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+    return _distribution_fullname(self.get_name(), self.get_version())
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+    canonicalize_version(version, strip_trailing_zero=False),
+TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/build.make:70：CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:514：CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

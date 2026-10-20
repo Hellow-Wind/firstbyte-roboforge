@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+[0.037s] [ 50%] Built target subscriber_node
+[0.037s] [100%] Built target publisher_node
+[0.062s] Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+[0.063s] Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg
+[0.065s] -- Install configuration: ""
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/publisher_node
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/subscriber_node
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/launch
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/launch/pub_sub.launch,xml
+[0.065s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/launch/pub_sub.launch.yaml
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/package_run_dependencies/topic_pkg
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/parent_prefix_path/topic_pkg
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.sh
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.sh
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.dsv
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.bash
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.sh
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.zsh
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.dsv
+[0.065s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.dsv
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/packages/topic_pkg
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig.cmake
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig-version.cmake
+[0.065s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.xml
+[0.073s] Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg

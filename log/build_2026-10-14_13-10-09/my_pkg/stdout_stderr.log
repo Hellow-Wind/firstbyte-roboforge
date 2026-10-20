@@ -1,0 +1,18 @@
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/lib/my_pkg/my_node
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/package_run_dependencies/my_pkg
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/parent_prefix_path/my_pkg
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/path.sh
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/path.dsv
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.bash
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.sh
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.zsh
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.dsv
+-- Installing: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.dsv
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/packages/my_pkg
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake
+-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.xml

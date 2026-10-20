@@ -1,0 +1,61 @@
+[0.013s] Invoking command in '/home/ka2e/ros2_ws/build/vel_pkg': /usr/bin/cmake /home/ka2e/ros2_ws/src/vel_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/vel_pkg
+[0.021s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.091s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.114s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.116s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.120s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.151s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.154s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.197s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.211s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.233s] -- Looking for pthread.h
+[0.303s] -- Looking for pthread.h - found
+[0.303s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.342s] -- Found Threads: TRUE  
+[0.366s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.370s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.406s] Error parsing '/home/ka2e/ros2_ws/src/vel_pkg/package.xml':
+[0.424s] Traceback (most recent call last):
+[0.424s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.424s]     root = dom.parseString(data)
+[0.424s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 1995, in parseString
+[0.424s]     return expatbuilder.parseString(string)
+[0.424s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.425s]     return builder.parseString(string)
+[0.425s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.425s]     parser.Parse(string, True)
+[0.425s] xml.parsers.expat.ExpatError: mismatched tag: line 21, column 2
+[0.425s] 
+[0.425s] During handling of the above exception, another exception occurred:
+[0.425s] 
+[0.425s] Traceback (most recent call last):
+[0.425s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.425s]     main()
+[0.425s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.425s]     raise e
+[0.425s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.425s]     package = parse_package_string(
+[0.425s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.425s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.425s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ka2e/ros2_ws/src/vel_pkg/package.xml':
+[0.425s] The manifest contains invalid XML:
+[0.425s] mismatched tag: line 21, column 2
+[0.433s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.434s]   execute_process(/usr/bin/python3
+[0.434s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.434s]   /home/ka2e/ros2_ws/src/vel_pkg/package.xml
+[0.434s]   /home/ka2e/ros2_ws/build/vel_pkg/ament_cmake_core/package.cmake) returned
+[0.434s]   error code 1
+[0.434s] Call Stack (most recent call first):
+[0.434s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.434s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.434s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.434s] 
+[0.434s] [0m
+[0.434s] -- Configuring incomplete, errors occurred!
+[0.434s] See also "/home/ka2e/ros2_ws/build/vel_pkg/CMakeFiles/CMakeOutput.log".
+[0.439s] Invoked command in '/home/ka2e/ros2_ws/build/vel_pkg' returned '1': /usr/bin/cmake /home/ka2e/ros2_ws/src/vel_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/vel_pkg

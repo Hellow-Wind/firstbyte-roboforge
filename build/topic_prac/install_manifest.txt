@@ -1,0 +1,15 @@
+/home/ka2e/ros2_ws/install/topic_prac/share/ament_index/resource_index/package_run_dependencies/topic_prac
+/home/ka2e/ros2_ws/install/topic_prac/share/ament_index/resource_index/parent_prefix_path/topic_prac
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/environment/ament_prefix_path.sh
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/environment/ament_prefix_path.dsv
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/environment/path.sh
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/environment/path.dsv
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/local_setup.bash
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/local_setup.sh
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/local_setup.zsh
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/local_setup.dsv
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/package.dsv
+/home/ka2e/ros2_ws/install/topic_prac/share/ament_index/resource_index/packages/topic_prac
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/cmake/topic_pracConfig.cmake
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/cmake/topic_pracConfig-version.cmake
+/home/ka2e/ros2_ws/install/topic_prac/share/topic_prac/package.xml

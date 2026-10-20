@@ -1,0 +1,35 @@
+[0.005s] Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/wpr_simulation2
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.237s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.357s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.357s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[0.357s]   project has asked CMake to find a package configuration file provided by
+[0.357s]   "gazebo_ros_pkgs", but CMake did not find one.
+[0.358s] 
+[0.358s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[0.358s]   with any of the following names:
+[0.358s] 
+[0.358s]     gazebo_ros_pkgsConfig.cmake
+[0.358s]     gazebo_ros_pkgs-config.cmake
+[0.358s] 
+[0.358s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[0.358s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[0.358s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[0.358s]   sure it has been installed.
+[0.358s] 
+[0.358s] [0m
+[0.358s] -- Configuring incomplete, errors occurred!
+[0.358s] See also "/home/ka2e/ros2_ws/build/wpr_simulation2/CMakeFiles/CMakeOutput.log".
+[0.359s] Invoked command in '/home/ka2e/ros2_ws/build/wpr_simulation2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/wpr_simulation2

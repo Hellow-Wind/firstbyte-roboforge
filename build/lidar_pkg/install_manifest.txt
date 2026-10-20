@@ -1,0 +1,16 @@
+/home/ka2e/ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_data
+/home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+/home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/package.dsv
+/home/ka2e/ros2_ws/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+/home/ka2e/ros2_ws/install/lidar_pkg/share/lidar_pkg/package.xml

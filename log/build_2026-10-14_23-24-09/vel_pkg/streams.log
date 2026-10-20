@@ -1,0 +1,49 @@
+[0.023s] Invoking command in '/home/ka2e/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/vel_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/vel_pkg
+[0.029s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.118s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.121s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.142s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.143s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.218s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.222s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.265s] -- Configured cppcheck include dirs: 
+[0.265s] -- Configured cppcheck exclude dirs and/or files: 
+[0.265s] -- Added test 'lint_cmake' to check CMake code style
+[0.266s] -- Added test 'uncrustify' to check C / C++ code style
+[0.266s] -- Configured uncrustify additional arguments: 
+[0.266s] -- Added test 'xmllint' to check XML markup files
+[0.268s] -- Configuring done
+[0.271s] -- Generating done
+[0.273s] -- Build files have been written to: /home/ka2e/ros2_ws/build/vel_pkg
+[0.276s] Invoked command in '/home/ka2e/ros2_ws/build/vel_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/vel_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/vel_pkg
+[0.277s] Invoking command in '/home/ka2e/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/vel_pkg -- -j24 -l24
+[0.306s] [ 50%] [32mBuilding CXX object CMakeFiles/vel_node.dir/src/vel_node.cpp.o[0m
+[2.033s] [100%] [32m[1mLinking CXX executable vel_node[0m
+[2.124s] [100%] Built target vel_node
+[2.132s] Invoked command in '/home/ka2e/ros2_ws/build/vel_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/vel_pkg -- -j24 -l24
+[2.133s] Invoking command in '/home/ka2e/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/vel_pkg
+[2.138s] -- Install configuration: ""
+[2.138s] -- Installing: /home/ka2e/ros2_ws/install/vel_pkg/lib/vel_pkg/vel_node
+[2.139s] -- Set runtime path of "/home/ka2e/ros2_ws/install/vel_pkg/lib/vel_pkg/vel_node" to ""
+[2.139s] -- Installing: /home/ka2e/ros2_ws/install/vel_pkg/share/ament_index/resource_index/package_run_dependencies/vel_pkg
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/ament_index/resource_index/parent_prefix_path/vel_pkg
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/environment/ament_prefix_path.sh
+[2.139s] -- Installing: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/environment/ament_prefix_path.dsv
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/environment/path.sh
+[2.139s] -- Installing: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/environment/path.dsv
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.bash
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.sh
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.zsh
+[2.139s] -- Installing: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.dsv
+[2.139s] -- Installing: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/package.dsv
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/ament_index/resource_index/packages/vel_pkg
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/cmake/vel_pkgConfig.cmake
+[2.139s] -- Up-to-date: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/cmake/vel_pkgConfig-version.cmake
+[2.139s] -- Installing: /home/ka2e/ros2_ws/install/vel_pkg/share/vel_pkg/package.xml
+[2.141s] Invoked command in '/home/ka2e/ros2_ws/build/vel_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/vel_pkg

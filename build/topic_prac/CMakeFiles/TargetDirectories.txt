@@ -1,0 +1,9 @@
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/uninstall.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/topic_prac_uninstall.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/test.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/edit_cache.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/rebuild_cache.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/list_install_components.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/install.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/install/local.dir
+/home/ka2e/ros2_ws/build/topic_prac/CMakeFiles/install/strip.dir

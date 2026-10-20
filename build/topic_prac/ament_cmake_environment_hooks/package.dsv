@@ -1,0 +1,4 @@
+source;share/topic_prac/local_setup.bash
+source;share/topic_prac/local_setup.dsv
+source;share/topic_prac/local_setup.sh
+source;share/topic_prac/local_setup.zsh

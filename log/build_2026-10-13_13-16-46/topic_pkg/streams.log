@@ -1,0 +1,7 @@
+[0.009s] Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[0.058s] [ 75%] Built target publisher_node
+[3.530s] [100%] [32m[1mLinking CXX executable subscriber_node[0m
+[3.711s] [100%] Built target subscriber_node

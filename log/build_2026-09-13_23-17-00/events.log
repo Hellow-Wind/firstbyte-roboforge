@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000296] (wpr_simulation2) JobQueued: {'identifier': 'wpr_simulation2', 'dependencies': OrderedDict()}
+[0.000310] (wpr_simulation2) JobStarted: {'identifier': 'wpr_simulation2'}
+[0.004870] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'cmake'}
+[0.004988] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '/home/ka2e/ros2_ws/src/wpr_simulation2', '-DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/wpr_simulation2'], 'cwd': '/home/ka2e/ros2_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e/桌面'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2185,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10893cd5_3720_46b1_b1b7_c63c34761d78'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.088351] (wpr_simulation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100030] (-) TimerEvent: {}
+[0.144715] (wpr_simulation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.154119] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.193288] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.193448] (wpr_simulation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.193478] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.194035] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.196630] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200243] (-) TimerEvent: {}
+[0.237485] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.238855] (wpr_simulation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.238933] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.238957] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.240493] (wpr_simulation2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300396] (-) TimerEvent: {}
+[0.312550] (wpr_simulation2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.357211] (wpr_simulation2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[0.357552] (wpr_simulation2) StderrLine: {'line': b'  By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.357587] (wpr_simulation2) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.357609] (wpr_simulation2) StderrLine: {'line': b'  "gazebo_ros_pkgs", but CMake did not find one.\n'}
+[0.357868] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[0.357919] (wpr_simulation2) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo_ros_pkgs"\n'}
+[0.357943] (wpr_simulation2) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.357962] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[0.357979] (wpr_simulation2) StderrLine: {'line': b'    gazebo_ros_pkgsConfig.cmake\n'}
+[0.357997] (wpr_simulation2) StderrLine: {'line': b'    gazebo_ros_pkgs-config.cmake\n'}
+[0.358015] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[0.358031] (wpr_simulation2) StderrLine: {'line': b'  Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or\n'}
+[0.358048] (wpr_simulation2) StderrLine: {'line': b'  set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.\n'}
+[0.358066] (wpr_simulation2) StderrLine: {'line': b'  If "gazebo_ros_pkgs" provides a separate development package or SDK, be\n'}
+[0.358088] (wpr_simulation2) StderrLine: {'line': b'  sure it has been installed.\n'}
+[0.358137] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[0.358157] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.358175] (wpr_simulation2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.358263] (wpr_simulation2) StdoutLine: {'line': b'See also "/home/ka2e/ros2_ws/build/wpr_simulation2/CMakeFiles/CMakeOutput.log".\n'}
+[0.358785] (wpr_simulation2) CommandEnded: {'returncode': 1}
+[0.370890] (wpr_simulation2) JobEnded: {'identifier': 'wpr_simulation2', 'rc': 1}
+[0.381153] (-) EventReactorShutdown: {}

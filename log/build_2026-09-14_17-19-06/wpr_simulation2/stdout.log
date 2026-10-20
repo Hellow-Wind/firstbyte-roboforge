@@ -1,0 +1,82 @@
+[35m[1mConsolidate compiler generated dependencies of target 4_velocity_command[0m
+[35m[1mConsolidate compiler generated dependencies of target 3_my_node[0m
+[35m[1mConsolidate compiler generated dependencies of target 6_imu_behavior[0m
+[35m[1mConsolidate compiler generated dependencies of target 6_imu_data[0m
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_follow[0m
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_image[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target keyboard_vel_cmd[0m
+[35m[1mConsolidate compiler generated dependencies of target ball_random_move[0m
+[35m[1mConsolidate compiler generated dependencies of target 3_subscriber_node[0m
+[35m[1mConsolidate compiler generated dependencies of target 11_mani_ctrl[0m
+[35m[1mConsolidate compiler generated dependencies of target 3_publisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target wpb_home_mani_sim[0m
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_face_detect[0m
+[35m[1mConsolidate compiler generated dependencies of target 8_waypoint_navigation[0m
+[35m[1mConsolidate compiler generated dependencies of target 5_lidar_data[0m
+[35m[1mConsolidate compiler generated dependencies of target 5_lidar_behavior[0m
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_hsv[0m
+[35m[1mConsolidate compiler generated dependencies of target 12_fetch[0m
+[35m[1mConsolidate compiler generated dependencies of target 10_pc_data[0m
+[  1%] Built target wpr_simulation2__cpp
+[35m[1mConsolidate compiler generated dependencies of target 10_pc_objects[0m
+[  3%] Built target 4_velocity_command
+[  6%] Built target 3_my_node
+[  8%] Built target 6_imu_behavior
+[ 11%] Built target 6_imu_data
+[ 15%] Built target wpr_simulation2__rosidl_generator_c
+[ 16%] Built target wpr_simulation2__rs
+[ 18%] Built target 9_cv_image
+[ 18%] Built target ament_cmake_python_copy_wpr_simulation2
+[ 21%] Built target 3_publisher_node
+[ 23%] Built target wpb_home_mani_sim
+[ 26%] Built target 11_mani_ctrl
+[ 28%] Built target 8_waypoint_navigation
+[ 31%] Built target 9_cv_face_detect
+[ 35%] Built target 5_lidar_behavior
+[ 36%] Built target ball_random_move
+[ 40%] Built target 12_fetch
+[ 41%] Built target 9_cv_follow
+[ 43%] Built target 3_subscriber_node
+[ 46%] Built target keyboard_vel_cmd
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c[0m
+[ 48%] Built target 9_cv_hsv
+[ 51%] Built target 5_lidar_data
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_cpp[0m
+[ 53%] Built target 10_pc_data
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_nav2_client[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_cpp[0m
+[ 57%] Built target wpr_simulation2__rosidl_typesupport_c
+[ 61%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[ 63%] Built target 10_pc_objects
+[ 67%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[ 71%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[ 75%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[ 78%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target demo_nav2_client
+[35m[1mConsolidate compiler generated dependencies of target grab_object_sim[0m
+[35m[1mConsolidate compiler generated dependencies of target objects_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target 11_grab_object[0m
+[ 81%] Built target wpr_simulation2
+[ 83%] Built target grab_object_sim
+[ 86%] Built target 11_grab_object
+[ 88%] Built target objects_publisher
+[ 90%] Built target wpr_simulation2__py
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_py[0m
+[ 92%] Built target wpr_simulation2__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c__pyext[0m
+[ 97%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[100%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+running egg_info
+writing wpr_simulation2.egg-info/PKG-INFO
+writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+writing top-level names to wpr_simulation2.egg-info/top_level.txt
+reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_wpr_simulation2_egg

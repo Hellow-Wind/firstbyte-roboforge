@@ -1,0 +1,45 @@
+[  1%] Built target wpr_simulation2__rs
+[  2%] Built target wpr_simulation2__cpp
+[  6%] Built target wpr_simulation2__rosidl_generator_c
+[  8%] Built target keyboard_vel_cmd
+[ 11%] Built target wpb_home_mani_sim
+[ 13%] Built target 3_subscriber_node
+[ 16%] Built target ball_random_move
+[ 16%] Built target ament_cmake_python_copy_wpr_simulation2
+[ 22%] Built target 5_lidar_data
+[ 22%] Built target 8_waypoint_navigation
+[ 25%] Built target 3_publisher_node
+[ 27%] Built target 4_velocity_command
+[ 32%] Built target 3_my_node
+[ 35%] Built target 5_lidar_behavior
+[ 30%] Built target 9_cv_hsv
+[ 38%] Built target 6_imu_behavior
+[ 42%] Built target 9_cv_face_detect
+[ 42%] Built target 6_imu_data
+[ 43%] Built target 9_cv_image
+[ 46%] Built target 9_cv_follow
+[ 48%] Built target 12_fetch
+[ 52%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target 11_mani_ctrl
+[ 57%] Built target 10_pc_data
+[ 60%] Built target demo_nav2_client
+[ 62%] Built target 10_pc_objects
+[ 66%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[ 70%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[ 73%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[ 77%] Built target wpr_simulation2__rosidl_typesupport_c
+[ 81%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[ 81%] Built target wpr_simulation2
+[ 83%] Built target grab_object_sim
+[ 86%] Built target 11_grab_object
+[ 88%] Built target objects_publisher
+[ 90%] Built target wpr_simulation2__py
+[ 92%] Built target wpr_simulation2__rosidl_generator_py
+[ 95%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[100%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+running egg_info
+writing wpr_simulation2.egg-info/PKG-INFO
+writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+writing top-level names to wpr_simulation2.egg-info/top_level.txt
+reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'

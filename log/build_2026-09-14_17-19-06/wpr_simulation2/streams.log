@@ -1,0 +1,83 @@
+[0.007s] Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target 4_velocity_command[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target 3_my_node[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target 6_imu_behavior[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target 6_imu_data[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_follow[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_image[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_c[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target keyboard_vel_cmd[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target ball_random_move[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 3_subscriber_node[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 11_mani_ctrl[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 3_publisher_node[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target wpb_home_mani_sim[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_face_detect[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 8_waypoint_navigation[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 5_lidar_data[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 5_lidar_behavior[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_hsv[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target 12_fetch[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target 10_pc_data[0m
+[0.048s] [  1%] Built target wpr_simulation2__cpp
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target 10_pc_objects[0m
+[0.055s] [  3%] Built target 4_velocity_command
+[0.058s] [  6%] Built target 3_my_node
+[0.060s] [  8%] Built target 6_imu_behavior
+[0.060s] [ 11%] Built target 6_imu_data
+[0.065s] [ 15%] Built target wpr_simulation2__rosidl_generator_c
+[0.065s] [ 16%] Built target wpr_simulation2__rs
+[0.065s] [ 18%] Built target 9_cv_image
+[0.065s] [ 18%] Built target ament_cmake_python_copy_wpr_simulation2
+[0.066s] [ 21%] Built target 3_publisher_node
+[0.066s] [ 23%] Built target wpb_home_mani_sim
+[0.067s] [ 26%] Built target 11_mani_ctrl
+[0.070s] [ 28%] Built target 8_waypoint_navigation
+[0.070s] [ 31%] Built target 9_cv_face_detect
+[0.070s] [ 35%] Built target 5_lidar_behavior
+[0.070s] [ 36%] Built target ball_random_move
+[0.070s] [ 40%] Built target 12_fetch
+[0.070s] [ 41%] Built target 9_cv_follow
+[0.070s] [ 43%] Built target 3_subscriber_node
+[0.070s] [ 46%] Built target keyboard_vel_cmd
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c[0m
+[0.074s] [ 48%] Built target 9_cv_hsv
+[0.074s] [ 51%] Built target 5_lidar_data
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_cpp[0m
+[0.075s] [ 53%] Built target 10_pc_data
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_cpp[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target demo_nav2_client[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_cpp[0m
+[0.082s] [ 57%] Built target wpr_simulation2__rosidl_typesupport_c
+[0.083s] [ 61%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[0.083s] [ 63%] Built target 10_pc_objects
+[0.083s] [ 67%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[0.084s] [ 71%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[0.085s] [ 75%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[0.086s] [ 78%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[0.089s] [ 81%] Built target demo_nav2_client
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target grab_object_sim[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target objects_publisher[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target 11_grab_object[0m
+[0.102s] [ 81%] Built target wpr_simulation2
+[0.104s] [ 83%] Built target grab_object_sim
+[0.104s] [ 86%] Built target 11_grab_object
+[0.110s] [ 88%] Built target objects_publisher
+[0.115s] [ 90%] Built target wpr_simulation2__py
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_py[0m
+[0.126s] [ 92%] Built target wpr_simulation2__rosidl_generator_py
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c__pyext[0m
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c__pyext[0m
+[0.140s] [ 97%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[0.141s] [ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[0.141s] [100%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[0.190s] running egg_info
+[0.190s] writing wpr_simulation2.egg-info/PKG-INFO
+[0.190s] writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+[0.190s] writing top-level names to wpr_simulation2.egg-info/top_level.txt
+[0.192s] reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[0.192s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[0.204s] [100%] Built target ament_cmake_python_build_wpr_simulation2_egg

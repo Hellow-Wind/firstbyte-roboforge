@@ -1,0 +1,1 @@
+Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/wpr_simulation2

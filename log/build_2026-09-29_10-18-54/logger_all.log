@@ -1,0 +1,276 @@
+[0.176s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.176s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71db1952a2f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71db19529de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71db19529de0>>, mixin_verb=('build',))
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.346s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ka2e/ros2_ws'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_pkg' with type 'ros.ament_cmake' and name 'my_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_pkg) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_pkg' with type 'ros.ament_cmake' and name 'topic_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/wpr_simulation2) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wpr_simulation2' with type 'ros.ament_cmake' and name 'wpr_simulation2'
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'my_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ka2e/ros2_ws/build/my_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ka2e/ros2_ws/install/my_pkg', 'merge_install': False, 'path': '/home/ka2e/ros2_ws/src/my_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ka2e/ros2_ws/build/topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ka2e/ros2_ws/install/topic_pkg', 'merge_install': False, 'path': '/home/ka2e/ros2_ws/src/topic_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'wpr_simulation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ka2e/ros2_ws/build/wpr_simulation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ka2e/ros2_ws/install/wpr_simulation2', 'merge_install': False, 'path': '/home/ka2e/ros2_ws/src/wpr_simulation2', 'symlink_install': False, 'test_result_base': None}
+[0.436s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ka2e/ros2_ws/src/my_pkg' with build type 'ament_cmake'
+[0.437s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ka2e/ros2_ws/src/my_pkg'
+[0.440s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ka2e/ros2_ws/src/topic_pkg' with build type 'ament_cmake'
+[0.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ka2e/ros2_ws/src/topic_pkg'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ka2e/ros2_ws/src/wpr_simulation2' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ka2e/ros2_ws/src/wpr_simulation2'
+[0.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ka2e/ros2_ws/build/my_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/my_pkg -- -j24 -l24
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ka2e/ros2_ws/build/my_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/my_pkg -- -j24 -l24
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ka2e/ros2_ws/build/my_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/my_pkg
+[0.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_pkg)
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ka2e/ros2_ws/build/my_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/my_pkg
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg' for CMake module files
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg' for CMake config files
+[0.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pkg', 'cmake_prefix_path')
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/hook/cmake_prefix_path.ps1'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/hook/cmake_prefix_path.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/hook/cmake_prefix_path.sh'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/lib'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/bin'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/lib/pkgconfig/my_pkg.pc'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/lib/python3.10/site-packages'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/bin'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.sh'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.bash'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.zsh'
+[0.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ka2e/ros2_ws/install/my_pkg/share/colcon-core/packages/my_pkg)
+[0.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_pkg)
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg' for CMake module files
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg' for CMake config files
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pkg', 'cmake_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/hook/cmake_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/hook/cmake_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/hook/cmake_prefix_path.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/lib'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/bin'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/lib/pkgconfig/my_pkg.pc'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/lib/python3.10/site-packages'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/my_pkg/bin'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.dsv'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.sh'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.bash'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.zsh'
+[0.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ka2e/ros2_ws/install/my_pkg/share/colcon-core/packages/my_pkg)
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ka2e/ros2_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/wpr_simulation2
+[0.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wpr_simulation2)
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2' for CMake module files
+[0.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ka2e/ros2_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/wpr_simulation2
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2' for CMake config files
+[0.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'cmake_prefix_path')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.sh'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/lib'
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'ld_library_path_lib')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.sh'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/bin'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/lib/pkgconfig/wpr_simulation2.pc'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/lib/python3.10/site-packages'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/bin'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.bash'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.zsh'
+[0.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ka2e/ros2_ws/install/wpr_simulation2/share/colcon-core/packages/wpr_simulation2)
+[0.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wpr_simulation2)
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2' for CMake module files
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2' for CMake config files
+[0.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'cmake_prefix_path')
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.ps1'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.dsv'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.sh'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/lib'
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'ld_library_path_lib')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.sh'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/bin'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/lib/pkgconfig/wpr_simulation2.pc'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/lib/python3.10/site-packages'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/wpr_simulation2/bin'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.sh'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.bash'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.zsh'
+[0.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ka2e/ros2_ws/install/wpr_simulation2/share/colcon-core/packages/wpr_simulation2)
+[5.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+[5.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg
+[5.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_pkg)
+[5.375s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg' for CMake module files
+[5.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg
+[5.376s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg' for CMake config files
+[5.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_pkg', 'cmake_prefix_path')
+[5.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/hook/cmake_prefix_path.ps1'
+[5.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/hook/cmake_prefix_path.dsv'
+[5.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/hook/cmake_prefix_path.sh'
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/lib'
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/bin'
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/lib/pkgconfig/topic_pkg.pc'
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/lib/python3.10/site-packages'
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/bin'
+[5.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.ps1'
+[5.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.dsv'
+[5.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.sh'
+[5.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.bash'
+[5.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.zsh'
+[5.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ka2e/ros2_ws/install/topic_pkg/share/colcon-core/packages/topic_pkg)
+[5.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_pkg)
+[5.380s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg' for CMake module files
+[5.381s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg' for CMake config files
+[5.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_pkg', 'cmake_prefix_path')
+[5.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/hook/cmake_prefix_path.ps1'
+[5.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/hook/cmake_prefix_path.dsv'
+[5.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/hook/cmake_prefix_path.sh'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/lib'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/bin'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/lib/pkgconfig/topic_pkg.pc'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/lib/python3.10/site-packages'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/ka2e/ros2_ws/install/topic_pkg/bin'
+[5.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.ps1'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.dsv'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.sh'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.bash'
+[5.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.zsh'
+[5.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ka2e/ros2_ws/install/topic_pkg/share/colcon-core/packages/topic_pkg)
+[5.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.385s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.390s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.407s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ka2e/ros2_ws/install/local_setup.ps1'
+[5.409s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ka2e/ros2_ws/install/_local_setup_util_ps1.py'
+[5.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ka2e/ros2_ws/install/setup.ps1'
+[5.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ka2e/ros2_ws/install/local_setup.sh'
+[5.411s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ka2e/ros2_ws/install/_local_setup_util_sh.py'
+[5.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ka2e/ros2_ws/install/setup.sh'
+[5.413s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ka2e/ros2_ws/install/local_setup.bash'
+[5.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ka2e/ros2_ws/install/setup.bash'
+[5.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ka2e/ros2_ws/install/local_setup.zsh'
+[5.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ka2e/ros2_ws/install/setup.zsh'

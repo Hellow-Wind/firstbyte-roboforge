@@ -1,0 +1,2 @@
+Invoking command in '/home/ka2e/ros2_ws/build/vel_pkg': /usr/bin/cmake /home/ka2e/ros2_ws/src/vel_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/vel_pkg
+Invoked command in '/home/ka2e/ros2_ws/build/vel_pkg' returned '1': /usr/bin/cmake /home/ka2e/ros2_ws/src/vel_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/vel_pkg

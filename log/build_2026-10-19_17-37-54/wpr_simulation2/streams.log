@@ -1,0 +1,355 @@
+[0.019s] Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24
+[0.059s] [  1%] Built target wpr_simulation2__cpp
+[0.066s] [  3%] Built target wpb_home_mani_sim
+[0.066s] [  5%] Built target wpr_simulation2__rs
+[0.066s] [  8%] Built target wpr_simulation2__rosidl_generator_c
+[0.069s] [ 10%] [32mBuilding CXX object CMakeFiles/6_imu_behavior.dir/demo_cpp/6_imu_behavior.cpp.o[0m
+[0.074s] [ 12%] Built target keyboard_vel_cmd
+[0.074s] [ 12%] Built target ament_cmake_python_copy_wpr_simulation2
+[0.074s] [ 15%] Built target ball_random_move
+[0.074s] [ 17%] Built target 3_subscriber_node
+[0.075s] [ 20%] Built target 3_my_node
+[0.075s] [ 25%] Built target 3_publisher_node
+[0.075s] [ 25%] Built target 4_velocity_command
+[0.075s] [ 26%] [32mBuilding CXX object CMakeFiles/6_imu_data.dir/demo_cpp/6_imu_data.cpp.o[0m
+[0.085s] [ 28%] Built target 9_cv_hsv
+[0.088s] [ 31%] Built target 12_fetch
+[0.088s] [ 33%] Built target 8_waypoint_navigation
+[0.088s] [ 36%] Built target 9_cv_face_detect
+[0.088s] [ 38%] Built target 9_cv_image
+[0.088s] [ 41%] Built target 11_mani_ctrl
+[0.089s] [ 47%] Built target 9_cv_follow
+[0.089s] [ 47%] Built target 5_lidar_behavior
+[0.089s] [ 48%] Built target 5_lidar_data
+[0.089s] [ 50%] [32m[1mLinking CXX executable 10_pc_data[0m
+[0.089s] [ 51%] [32mBuilding CXX object CMakeFiles/10_pc_objects.dir/demo_cpp/10_pc_objects.cpp.o[0m
+[0.089s] [ 55%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[0.089s] [ 62%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[0.089s] [ 62%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[0.089s] [ 66%] Built target wpr_simulation2__rosidl_typesupport_c
+[0.089s] [ 70%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[0.089s] [ 73%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[0.093s] [ 76%] Built target demo_nav2_client
+[0.099s] [ 76%] Built target wpr_simulation2
+[0.101s] [ 77%] [32m[1mLinking CXX executable 11_grab_object[0m
+[0.101s] [ 78%] [32m[1mLinking CXX executable grab_object_sim[0m
+[0.110s] [ 80%] Built target wpr_simulation2__py
+[0.112s] [ 81%] [32mBuilding CXX object CMakeFiles/objects_publisher.dir/src/objects_publisher.cpp.o[0m
+[0.126s] [ 83%] Built target wpr_simulation2__rosidl_generator_py
+[0.141s] [ 91%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[0.141s] [ 91%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[0.142s] [ 91%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[0.161s] running egg_info
+[0.167s] writing wpr_simulation2.egg-info/PKG-INFO
+[0.167s] writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+[0.167s] writing top-level names to wpr_simulation2.egg-info/top_level.txt
+[0.185s] reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[0.186s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[0.201s] [ 91%] Built target ament_cmake_python_build_wpr_simulation2_egg
+[0.601s] [ 92%] Built target 10_pc_data
+[0.628s] [ 93%] Built target 11_grab_object
+[0.673s] [ 95%] Built target grab_object_sim
+[3.981s] [ 96%] [32m[1mLinking CXX executable 6_imu_data[0m
+[4.076s] [ 97%] [32m[1mLinking CXX executable 6_imu_behavior[0m
+[4.171s] [ 97%] Built target 6_imu_data
+[4.267s] [ 97%] Built target 6_imu_behavior
+[6.136s] [ 98%] [32m[1mLinking CXX executable 10_pc_objects[0m
+[6.828s] [ 98%] Built target 10_pc_objects
+[7.739s] [100%] [32m[1mLinking CXX executable objects_publisher[0m
+[8.560s] [100%] Built target objects_publisher
+[8.569s] Invoked command in '/home/ka2e/ros2_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24
+[8.571s] Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/wpr_simulation2
+[8.575s] -- Install configuration: ""
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh
+[8.575s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[8.576s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c
+[8.577s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so
+[8.578s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info
+[8.579s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt
+[8.579s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt
+[8.579s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO
+[8.579s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py
+[8.579s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.594s] Listing '/home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...
+[8.594s] Listing '/home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...
+[8.597s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.597s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.597s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/rust_packages/wpr_simulation2
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg/rmw.rs
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg.rs
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/src/lib.rs
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/build.rs
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rust/Cargo.toml
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py
+[8.598s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py
+[8.599s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae
+[8.600s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim
+[8.601s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd
+[8.602s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move
+[8.603s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher
+[8.605s] -- Set runtime path of "/home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher" to ""
+[8.605s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim
+[8.608s] -- Set runtime path of "/home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim" to ""
+[8.609s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node
+[8.609s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node
+[8.609s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command
+[8.610s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data
+[8.610s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior
+[8.610s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data
+[8.612s] -- Set runtime path of "/home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data" to ""
+[8.612s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior
+[8.614s] -- Set runtime path of "/home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior" to ""
+[8.614s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation
+[8.615s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image
+[8.615s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv
+[8.616s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow
+[8.616s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect
+[8.616s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data
+[8.618s] -- Set runtime path of "/home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data" to ""
+[8.619s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects
+[8.620s] -- Set runtime path of "/home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects" to ""
+[8.621s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl
+[8.621s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object
+[8.623s] -- Set runtime path of "/home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object" to ""
+[8.623s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv
+[8.624s] -- Installing: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake
+[8.624s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake
+[8.625s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake
+[8.626s] -- Up-to-date: /home/ka2e/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml
+[8.628s] Invoked command in '/home/ka2e/ros2_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/wpr_simulation2

@@ -1,0 +1,7 @@
+[0.005s] Invoking command in '/home/ka2e/ros2_ws/build/my_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/my_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/my_pkg
+[0.011s] [31mCMake Error at CMakeLists.txt:15:
+[0.011s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.011s] 
+[0.011s] [0m
+[0.011s] -- Configuring incomplete, errors occurred!
+[0.011s] Invoked command in '/home/ka2e/ros2_ws/build/my_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/my_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/my_pkg

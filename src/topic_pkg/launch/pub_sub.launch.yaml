@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+launch:
+  - node:
+      pkg: "topic_pkg"
+      exec: "publisher_node"
+      name: "publisher_node"
+      output: "screen"
+  - node:
+      pkg: "topic_pkg"
+      exec: "subscriber_node"
+      name: "subscriber_node"
+      output: "screen"

@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+[0.048s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.217s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.270s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.274s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.281s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.341s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.444s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.498s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.561s] -- Configured cppcheck include dirs: 
+[0.561s] -- Configured cppcheck exclude dirs and/or files: 
+[0.561s] -- Added test 'lint_cmake' to check CMake code style
+[0.561s] -- Added test 'uncrustify' to check C / C++ code style
+[0.562s] -- Configured uncrustify additional arguments: 
+[0.562s] -- Added test 'xmllint' to check XML markup files
+[0.566s] -- Configuring done
+[0.574s] -- Generating done
+[0.577s] -- Build files have been written to: /home/ka2e/ros2_ws/build/topic_pkg
+[0.607s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.609s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.624s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[0.624s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[4.367s] [ 75%] [32m[1mLinking CXX executable publisher_node[0m
+[4.562s] [ 75%] Built target publisher_node
+[4.799s] [100%] [32m[1mLinking CXX executable subscriber_node[0m
+[4.903s] [100%] Built target subscriber_node
+[4.916s] Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+[4.919s] Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg
+[4.926s] -- Install configuration: ""
+[4.928s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/publisher_node
+[4.928s] -- Set runtime path of "/home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/publisher_node" to ""
+[4.929s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/subscriber_node
+[4.929s] -- Set runtime path of "/home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/subscriber_node" to ""
+[4.929s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/package_run_dependencies/topic_pkg
+[4.929s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/parent_prefix_path/topic_pkg
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.sh
+[4.930s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.dsv
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.sh
+[4.930s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.dsv
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.bash
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.sh
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.zsh
+[4.930s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.dsv
+[4.930s] -- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.dsv
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/packages/topic_pkg
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig.cmake
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig-version.cmake
+[4.930s] -- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.xml
+[4.932s] Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg

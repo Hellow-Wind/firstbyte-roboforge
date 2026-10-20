@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (my_pkg) JobQueued: {'identifier': 'my_pkg', 'dependencies': OrderedDict()}
+[0.000112] (topic_pkg) JobQueued: {'identifier': 'topic_pkg', 'dependencies': OrderedDict()}
+[0.000120] (wpr_simulation2) JobQueued: {'identifier': 'wpr_simulation2', 'dependencies': OrderedDict()}
+[0.000126] (my_pkg) JobStarted: {'identifier': 'my_pkg'}
+[0.002861] (topic_pkg) JobStarted: {'identifier': 'topic_pkg'}
+[0.004558] (wpr_simulation2) JobStarted: {'identifier': 'wpr_simulation2'}
+[0.006506] (my_pkg) JobProgress: {'identifier': 'my_pkg', 'progress': 'cmake'}
+[0.007501] (my_pkg) JobProgress: {'identifier': 'my_pkg', 'progress': 'build'}
+[0.007555] (my_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ka2e/ros2_ws/build/my_pkg', '--', '-j24', '-l24'], 'cwd': '/home/ka2e/ros2_ws/build/my_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1946'), ('SYSTEMD_EXEC_PID', '2394'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6515'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:29171'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ka2e/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2229,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2229'), ('INVOCATION_ID', '87eb576cc44840fa85b92ea972ab221d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:842ca3b3-8fe2-410e-8454-5f6fbeee0d8f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/my_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.012446] (topic_pkg) JobProgress: {'identifier': 'topic_pkg', 'progress': 'cmake'}
+[0.013040] (topic_pkg) JobProgress: {'identifier': 'topic_pkg', 'progress': 'build'}
+[0.013065] (topic_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ka2e/ros2_ws/build/topic_pkg', '--', '-j24', '-l24'], 'cwd': '/home/ka2e/ros2_ws/build/topic_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1946'), ('SYSTEMD_EXEC_PID', '2394'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6515'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:29171'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ka2e/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2229,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2229'), ('INVOCATION_ID', '87eb576cc44840fa85b92ea972ab221d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:842ca3b3-8fe2-410e-8454-5f6fbeee0d8f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/topic_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014417] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'cmake'}
+[0.015266] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'build'}
+[0.015329] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ka2e/ros2_ws/build/wpr_simulation2', '--', '-j24', '-l24'], 'cwd': '/home/ka2e/ros2_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1946'), ('SYSTEMD_EXEC_PID', '2394'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6515'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:29171'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ka2e/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2229,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2229'), ('INVOCATION_ID', '87eb576cc44840fa85b92ea972ab221d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:842ca3b3-8fe2-410e-8454-5f6fbeee0d8f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027612] (topic_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.038912] (my_pkg) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.051260] (my_pkg) CommandEnded: {'returncode': 0}
+[0.051507] (wpr_simulation2) StdoutLine: {'line': b'[  3%] Built target wpr_simulation2__rosidl_generator_c\n'}
+[0.051562] (my_pkg) JobProgress: {'identifier': 'my_pkg', 'progress': 'install'}
+[0.056646] (my_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ka2e/ros2_ws/build/my_pkg'], 'cwd': '/home/ka2e/ros2_ws/build/my_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1946'), ('SYSTEMD_EXEC_PID', '2394'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6515'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:29171'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ka2e/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2229,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2229'), ('INVOCATION_ID', '87eb576cc44840fa85b92ea972ab221d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:842ca3b3-8fe2-410e-8454-5f6fbeee0d8f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ka2e/ros2_ws/build/my_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.056938] (wpr_simulation2) StdoutLine: {'line': b'[  6%] Built target wpr_simulation2__cpp\n'}
+[0.057010] (wpr_simulation2) StdoutLine: {'line': b'[  7%] Built target wpb_home_mani_sim\n'}
+[0.057037] (wpr_simulation2) StdoutLine: {'line': b'[ 10%] Built target keyboard_vel_cmd\n'}
+[0.057060] (wpr_simulation2) StdoutLine: {'line': b'[ 12%] Built target 3_publisher_node\n'}
+[0.057080] (wpr_simulation2) StdoutLine: {'line': b'[ 13%] Built target wpr_simulation2__rs\n'}
+[0.057100] (wpr_simulation2) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_wpr_simulation2\n'}
+[0.057119] (wpr_simulation2) StdoutLine: {'line': b'[ 21%] Built target 5_lidar_behavior\n'}
+[0.057138] (wpr_simulation2) StdoutLine: {'line': b'[ 21%] Built target 3_subscriber_node\n'}
+[0.057157] (wpr_simulation2) StdoutLine: {'line': b'[ 20%] Built target 6_imu_data\n'}
+[0.057176] (wpr_simulation2) StdoutLine: {'line': b'[ 26%] Built target 8_waypoint_navigation\n'}
+[0.057196] (wpr_simulation2) StdoutLine: {'line': b'[ 26%] Built target 9_cv_hsv\n'}
+[0.057215] (wpr_simulation2) StdoutLine: {'line': b'[ 31%] Built target 3_my_node\n'}
+[0.057234] (wpr_simulation2) StdoutLine: {'line': b'[ 31%] Built target 4_velocity_command\n'}
+[0.057253] (wpr_simulation2) StdoutLine: {'line': b'[ 35%] Built target 5_lidar_data\n'}
+[0.057458] (wpr_simulation2) StdoutLine: {'line': b'[ 37%] Built target ball_random_move\n'}
+[0.057485] (wpr_simulation2) StdoutLine: {'line': b'[ 38%] Built target 9_cv_image\n'}
+[0.058841] (wpr_simulation2) StdoutLine: {'line': b'[ 41%] Built target 6_imu_behavior\n'}
+[0.058897] (wpr_simulation2) StdoutLine: {'line': b'[ 43%] Built target 9_cv_follow\n'}
+[0.058925] (wpr_simulation2) StdoutLine: {'line': b'[ 46%] Built target 9_cv_face_detect\n'}
+[0.058947] (wpr_simulation2) StdoutLine: {'line': b'[ 48%] Built target 12_fetch\n'}
+[0.059158] (my_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.059190] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/lib/my_pkg/my_node\n'}
+[0.059213] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/package_run_dependencies/my_pkg\n'}
+[0.059235] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/parent_prefix_path/my_pkg\n'}
+[0.059282] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/ament_prefix_path.sh\n'}
+[0.059334] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/ament_prefix_path.dsv\n'}
+[0.059387] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/path.sh\n'}
+[0.059420] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/environment/path.dsv\n'}
+[0.059446] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.bash\n'}
+[0.059464] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.sh\n'}
+[0.059481] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.zsh\n'}
+[0.059498] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/local_setup.dsv\n'}
+[0.059515] (my_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.dsv\n'}
+[0.059532] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/ament_index/resource_index/packages/my_pkg\n'}
+[0.059549] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake\n'}
+[0.059566] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake\n'}
+[0.059583] (my_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/my_pkg/share/my_pkg/package.xml\n'}
+[0.062998] (my_pkg) CommandEnded: {'returncode': 0}
+[0.063677] (wpr_simulation2) StdoutLine: {'line': b'[ 51%] Built target 10_pc_data\n'}
+[0.063971] (wpr_simulation2) StdoutLine: {'line': b'[ 53%] Built target 11_mani_ctrl\n'}
+[0.065662] (wpr_simulation2) StdoutLine: {'line': b'[ 56%] Built target 10_pc_objects\n'}
+[0.067462] (wpr_simulation2) StdoutLine: {'line': b'[ 58%] Built target demo_nav2_client\n'}
+[0.068445] (wpr_simulation2) StdoutLine: {'line': b'[ 62%] Built target wpr_simulation2__rosidl_typesupport_cpp\n'}
+[0.068528] (wpr_simulation2) StdoutLine: {'line': b'[ 66%] Built target wpr_simulation2__rosidl_typesupport_introspection_c\n'}
+[0.068595] (wpr_simulation2) StdoutLine: {'line': b'[ 72%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c\n'}
+[0.068667] (wpr_simulation2) StdoutLine: {'line': b'[ 73%] Built target wpr_simulation2__rosidl_typesupport_c\n'}
+[0.068733] (wpr_simulation2) StdoutLine: {'line': b'[ 77%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.070317] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp\n'}
+[0.072573] (my_pkg) JobEnded: {'identifier': 'my_pkg', 'rc': 0}
+[0.081029] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target wpr_simulation2\n'}
+[0.081114] (wpr_simulation2) StdoutLine: {'line': b'[ 83%] Built target 11_grab_object\n'}
+[0.081144] (wpr_simulation2) StdoutLine: {'line': b'[ 86%] Built target grab_object_sim\n'}
+[0.085709] (wpr_simulation2) StdoutLine: {'line': b'[ 88%] Built target objects_publisher\n'}
+[0.090785] (wpr_simulation2) StdoutLine: {'line': b'[ 90%] Built target wpr_simulation2__py\n'}
+[0.091582] (topic_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099623] (-) TimerEvent: {}
+[0.101897] (wpr_simulation2) StdoutLine: {'line': b'[ 92%] Built target wpr_simulation2__rosidl_generator_py\n'}
+[0.103269] (topic_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.107652] (topic_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.107717] (topic_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.110752] (topic_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.112635] (wpr_simulation2) StdoutLine: {'line': b'[ 95%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.113113] (wpr_simulation2) StdoutLine: {'line': b'[ 97%] Built target wpr_simulation2__rosidl_typesupport_c__pyext\n'}
+[0.113626] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.114714] (topic_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.127355] (topic_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.127897] (topic_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.160257] (wpr_simulation2) StdoutLine: {'line': b'running egg_info\n'}
+[0.165814] (wpr_simulation2) StdoutLine: {'line': b'writing wpr_simulation2.egg-info/PKG-INFO\n'}
+[0.166141] (wpr_simulation2) StdoutLine: {'line': b'writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt\n'}
+[0.166178] (wpr_simulation2) StdoutLine: {'line': b'writing top-level names to wpr_simulation2.egg-info/top_level.txt\n'}
+[0.183518] (wpr_simulation2) StdoutLine: {'line': b"reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[0.190496] (wpr_simulation2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.190704] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/ros2_ws/build/wpr_simulation2/ament_cmake_python/wpr_simulation2/setup.py", line 4, in <module>\n'}
+[0.190804] (wpr_simulation2) StderrLine: {'line': b'    setup(\n'}
+[0.190888] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[0.190969] (wpr_simulation2) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[0.191046] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup\n'}
+[0.191399] (wpr_simulation2) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[0.191499] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands\n'}
+[0.191585] (wpr_simulation2) StderrLine: {'line': b'    dist.run_commands()\n'}
+[0.191686] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands\n'}
+[0.191766] (wpr_simulation2) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[0.191841] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command\n'}
+[0.191917] (wpr_simulation2) StderrLine: {'line': b'    super().run_command(command)\n'}
+[0.191992] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command\n'}
+[0.192066] (wpr_simulation2) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[0.192143] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run\n'}
+[0.192234] (wpr_simulation2) StderrLine: {'line': b'    self.find_sources()\n'}
+[0.192311] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources\n'}
+[0.192388] (wpr_simulation2) StderrLine: {'line': b'    mm.run()\n'}
+[0.192465] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run\n'}
+[0.192549] (wpr_simulation2) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[0.192636] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list\n'}
+[0.192717] (wpr_simulation2) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[0.192986] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list\n'}
+[0.193073] (wpr_simulation2) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[0.193100] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname\n'}
+[0.193121] (wpr_simulation2) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[0.193141] (wpr_simulation2) StderrLine: {'line': b'  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname\n'}
+[0.193159] (wpr_simulation2) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[0.193178] (wpr_simulation2) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[0.195909] (topic_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.199747] (-) TimerEvent: {}
+[0.205612] (wpr_simulation2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/build.make:70\xef\xbc\x9aCMakeFiles/ament_cmake_python_build_wpr_simulation2_egg] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.206081] (wpr_simulation2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:514\xef\xbc\x9aCMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.206633] (wpr_simulation2) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.209273] (wpr_simulation2) CommandEnded: {'returncode': 2}
+[0.212965] (wpr_simulation2) JobEnded: {'identifier': 'wpr_simulation2', 'rc': 2}
+[0.216635] (topic_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.268587] (topic_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.268714] (topic_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.268745] (topic_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.268770] (topic_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.268793] (topic_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.268813] (topic_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.268832] (topic_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.268962] (topic_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.277036] (topic_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.278782] (topic_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ka2e/ros2_ws/build/topic_pkg\n'}
+[0.294955] (topic_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_node\x1b[0m\n'}
+[0.294992] (topic_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher_node\x1b[0m\n'}
+[0.299827] (-) TimerEvent: {}
+[0.303465] (topic_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[0.303973] (topic_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[0.400718] (-) TimerEvent: {}
+[0.502923] (-) TimerEvent: {}
+[0.603347] (-) TimerEvent: {}
+[0.703743] (-) TimerEvent: {}
+[0.804184] (-) TimerEvent: {}
+[0.904654] (-) TimerEvent: {}
+[1.005121] (-) TimerEvent: {}
+[1.105519] (-) TimerEvent: {}
+[1.205879] (-) TimerEvent: {}
+[1.306203] (-) TimerEvent: {}
+[1.406532] (-) TimerEvent: {}
+[1.506871] (-) TimerEvent: {}
+[1.607224] (-) TimerEvent: {}
+[1.707622] (-) TimerEvent: {}
+[1.807955] (-) TimerEvent: {}
+[1.908204] (-) TimerEvent: {}
+[2.008516] (-) TimerEvent: {}
+[2.108877] (-) TimerEvent: {}
+[2.166748] (topic_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[2.209069] (-) TimerEvent: {}
+[2.262942] (topic_pkg) StdoutLine: {'line': b'[ 75%] Built target publisher_node\n'}
+[2.309257] (-) TimerEvent: {}
+[2.409626] (-) TimerEvent: {}
+[2.509952] (-) TimerEvent: {}
+[2.610313] (-) TimerEvent: {}
+[2.710640] (-) TimerEvent: {}
+[2.813077] (-) TimerEvent: {}
+[2.913407] (-) TimerEvent: {}
+[3.013731] (-) TimerEvent: {}
+[3.114042] (-) TimerEvent: {}
+[3.214347] (-) TimerEvent: {}
+[3.314675] (-) TimerEvent: {}
+[3.414981] (-) TimerEvent: {}
+[3.515333] (-) TimerEvent: {}
+[3.615642] (-) TimerEvent: {}
+[3.716059] (-) TimerEvent: {}
+[3.795565] (topic_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[3.816141] (-) TimerEvent: {}
+[3.916491] (-) TimerEvent: {}
+[3.950573] (topic_pkg) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[3.956773] (topic_pkg) JobEnded: {'identifier': 'topic_pkg', 'rc': 'SIGINT'}
+[3.967177] (-) EventReactorShutdown: {}

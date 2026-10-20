@@ -1,0 +1,2 @@
+Invoking command in '/home/ka2e/ros2_ws/build/my_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/my_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/my_pkg
+Invoked command in '/home/ka2e/ros2_ws/build/my_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/my_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/my_pkg

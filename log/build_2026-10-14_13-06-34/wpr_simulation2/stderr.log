@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/home/ka2e/ros2_ws/build/wpr_simulation2/ament_cmake_python/wpr_simulation2/setup.py", line 4, in <module>
+    setup(
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+    dist.run_commands()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+    self.run_command(cmd)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+    super().run_command(command)
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+    cmd_obj.run()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+    self.find_sources()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+    mm.run()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+    self.prune_file_list()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+    super().prune_file_list()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+    base_dir = self.distribution.get_fullname()
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+    return _distribution_fullname(self.get_name(), self.get_version())
+  File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+    canonicalize_version(version, strip_trailing_zero=False),
+TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/build.make:70：CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:514：CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

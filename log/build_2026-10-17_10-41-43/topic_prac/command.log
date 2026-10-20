@@ -1,0 +1,6 @@
+Invoking command in '/home/ka2e/ros2_ws/build/topic_prac': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/topic_prac -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/topic_prac
+Invoked command in '/home/ka2e/ros2_ws/build/topic_prac' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/topic_prac -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/topic_prac
+Invoking command in '/home/ka2e/ros2_ws/build/topic_prac': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_prac -- -j24 -l24
+Invoked command in '/home/ka2e/ros2_ws/build/topic_prac' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_prac -- -j24 -l24
+Invoking command in '/home/ka2e/ros2_ws/build/topic_prac': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_prac
+Invoked command in '/home/ka2e/ros2_ws/build/topic_prac' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_prac

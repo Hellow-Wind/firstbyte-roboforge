@@ -1,0 +1,6 @@
+Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/topic_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/topic_pkg
+Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/topic_pkg -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/topic_pkg
+Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/topic_pkg -- -j24 -l24
+Invoking command in '/home/ka2e/ros2_ws/build/topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg
+Invoked command in '/home/ka2e/ros2_ws/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/topic_pkg

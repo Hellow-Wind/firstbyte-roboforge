@@ -1,0 +1,80 @@
+[0.011s] Invoking command in '/home/ka2e/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24
+[0.041s] [  1%] Built target wpr_simulation2__rs
+[0.043s] [  2%] Built target wpr_simulation2__cpp
+[0.047s] [  6%] Built target wpr_simulation2__rosidl_generator_c
+[0.047s] [  8%] Built target keyboard_vel_cmd
+[0.047s] [ 11%] Built target wpb_home_mani_sim
+[0.047s] [ 13%] Built target 3_subscriber_node
+[0.047s] [ 16%] Built target ball_random_move
+[0.049s] [ 16%] Built target ament_cmake_python_copy_wpr_simulation2
+[0.050s] [ 22%] Built target 5_lidar_data
+[0.050s] [ 22%] Built target 8_waypoint_navigation
+[0.050s] [ 25%] Built target 3_publisher_node
+[0.050s] [ 27%] Built target 4_velocity_command
+[0.050s] [ 32%] Built target 3_my_node
+[0.050s] [ 35%] Built target 5_lidar_behavior
+[0.051s] [ 30%] Built target 9_cv_hsv
+[0.051s] [ 38%] Built target 6_imu_behavior
+[0.051s] [ 42%] Built target 9_cv_face_detect
+[0.051s] [ 42%] Built target 6_imu_data
+[0.051s] [ 43%] Built target 9_cv_image
+[0.051s] [ 46%] Built target 9_cv_follow
+[0.053s] [ 48%] Built target 12_fetch
+[0.053s] [ 52%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[0.054s] [ 55%] Built target 11_mani_ctrl
+[0.054s] [ 57%] Built target 10_pc_data
+[0.055s] [ 60%] Built target demo_nav2_client
+[0.057s] [ 62%] Built target 10_pc_objects
+[0.059s] [ 66%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[0.060s] [ 70%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[0.060s] [ 73%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[0.060s] [ 77%] Built target wpr_simulation2__rosidl_typesupport_c
+[0.061s] [ 81%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[0.070s] [ 81%] Built target wpr_simulation2
+[0.074s] [ 83%] Built target grab_object_sim
+[0.075s] [ 86%] Built target 11_grab_object
+[0.078s] [ 88%] Built target objects_publisher
+[0.080s] [ 90%] Built target wpr_simulation2__py
+[0.091s] [ 92%] Built target wpr_simulation2__rosidl_generator_py
+[0.102s] [ 95%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[0.103s] [ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[0.104s] [100%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[0.152s] running egg_info
+[0.159s] writing wpr_simulation2.egg-info/PKG-INFO
+[0.159s] writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+[0.159s] writing top-level names to wpr_simulation2.egg-info/top_level.txt
+[0.176s] reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[0.182s] Traceback (most recent call last):
+[0.183s]   File "/home/ka2e/ros2_ws/build/wpr_simulation2/ament_cmake_python/wpr_simulation2/setup.py", line 4, in <module>
+[0.183s]     setup(
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.183s]     return distutils.core.setup(**attrs)
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.183s]     return run_commands(dist)
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.183s]     dist.run_commands()
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[0.183s]     self.run_command(cmd)
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[0.183s]     super().run_command(command)
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[0.183s]     cmd_obj.run()
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.183s]     self.find_sources()
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.183s]     mm.run()
+[0.183s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.184s]     self.prune_file_list()
+[0.184s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.184s]     super().prune_file_list()
+[0.184s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[0.184s]     base_dir = self.distribution.get_fullname()
+[0.184s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[0.184s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.184s]   File "/home/ka2e/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[0.184s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.184s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.197s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/build.make:70：CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg] 错误 1
+[0.197s] gmake[1]: *** [CMakeFiles/Makefile2:514：CMakeFiles/ament_cmake_python_build_wpr_simulation2_egg.dir/all] 错误 2
+[0.198s] gmake: *** [Makefile:146：all] 错误 2
+[0.200s] Invoked command in '/home/ka2e/ros2_ws/build/wpr_simulation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/wpr_simulation2 -- -j24 -l24

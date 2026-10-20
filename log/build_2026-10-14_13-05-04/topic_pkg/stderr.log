@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:27 (install):
+  install DIRECTORY given unknown argument "{PROJECT_NAME}".
+
+[0m
+gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
