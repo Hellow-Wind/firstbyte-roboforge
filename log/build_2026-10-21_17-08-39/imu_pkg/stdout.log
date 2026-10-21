@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target imu_data[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_data.dir/src/imu_data.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_data[0m
+[100%] Built target imu_data
+-- Install configuration: ""
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/lib/imu_pkg/imu_data
+-- Set runtime path of "/home/ka2e/ros2_ws/install/imu_pkg/lib/imu_pkg/imu_data" to ""
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/package_run_dependencies/imu_pkg
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/parent_prefix_path/imu_pkg
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/path.sh
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/path.dsv
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.bash
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.sh
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.zsh
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.dsv
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/package.dsv
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/packages/imu_pkg
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig.cmake
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig-version.cmake
+-- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/package.xml

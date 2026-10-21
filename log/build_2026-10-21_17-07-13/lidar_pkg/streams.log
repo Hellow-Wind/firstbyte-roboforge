@@ -1,0 +1,7 @@
+[0.015s] Invoking command in '/home/ka2e/ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/lidar_pkg -- -j24 -l24
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target lidar_data[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target lidar_behavior[0m
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_data.dir/src/lidar_data.cpp.o[0m
+[0.076s] [ 75%] Built target lidar_behavior
+[3.728s] [100%] [32m[1mLinking CXX executable lidar_data[0m
+[3.911s] [100%] Built target lidar_data

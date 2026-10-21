@@ -1,0 +1,24 @@
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:[m[K In function ‘[01m[Kvoid IMUCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf3[m[K’ has not been declared
+   10 |     [01;31m[Ktf3[m[K::Quaternion tf2_quaternion;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_quaternion[m[K’ was not declared in this scope
+   11 |     [01;31m[Ktf2_quaternion[m[K.setX(msg->orientation.x);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:16:26:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+   16 |     tf2::Matrix3x3 matrix[01;35m[K()[m[Ktf2_quaternion;
+      |                          [01;35m[K^~[m[K
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:16:26:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+   16 |     tf2::Matrix3x3 matrix[01;36m[K()[m[Ktf2_quaternion;
+      |                          [01;36m[K^~[m[K
+      |                          [31m[K--[m[K
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:16:26:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:16:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ktf2_quaternion[m[K’
+   16 |     tf2::Matrix3x3 matrix()[01;31m[Ktf2_quaternion[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ka2e/ros2_ws/src/imu_pkg/src/imu_data.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix[m[K’ was not declared in this scope
+   19 |     [01;31m[Kmatrix[m[K.getRPY(roll,pitch,yawj);
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/imu_data.dir/build.make:76：CMakeFiles/imu_data.dir/src/imu_data.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/imu_data.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

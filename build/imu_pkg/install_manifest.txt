@@ -1,0 +1,16 @@
+/home/ka2e/ros2_ws/install/imu_pkg/lib/imu_pkg/imu_data
+/home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/package_run_dependencies/imu_pkg
+/home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/parent_prefix_path/imu_pkg
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.sh
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.dsv
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/path.sh
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/path.dsv
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.bash
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.sh
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.zsh
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.dsv
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/package.dsv
+/home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/packages/imu_pkg
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig.cmake
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig-version.cmake
+/home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/package.xml

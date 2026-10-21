@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/ka2e/ros2_ws/build/imu_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/imu_pkg -- -j24 -l24
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target imu_data[0m
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_data.dir/src/imu_data.cpp.o[0m
+[3.471s] [100%] [32m[1mLinking CXX executable imu_data[0m
+[3.639s] [100%] Built target imu_data
+[3.650s] Invoked command in '/home/ka2e/ros2_ws/build/imu_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/imu_pkg -- -j24 -l24
+[3.650s] Invoking command in '/home/ka2e/ros2_ws/build/imu_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/imu_pkg
+[3.653s] -- Install configuration: ""
+[3.653s] -- Installing: /home/ka2e/ros2_ws/install/imu_pkg/lib/imu_pkg/imu_data
+[3.655s] -- Set runtime path of "/home/ka2e/ros2_ws/install/imu_pkg/lib/imu_pkg/imu_data" to ""
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/package_run_dependencies/imu_pkg
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/parent_prefix_path/imu_pkg
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.sh
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.dsv
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/path.sh
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/environment/path.dsv
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.bash
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.sh
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.zsh
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/local_setup.dsv
+[3.655s] -- Installing: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/package.dsv
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/ament_index/resource_index/packages/imu_pkg
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig.cmake
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig-version.cmake
+[3.655s] -- Up-to-date: /home/ka2e/ros2_ws/install/imu_pkg/share/imu_pkg/package.xml
+[3.656s] Invoked command in '/home/ka2e/ros2_ws/build/imu_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/imu_pkg

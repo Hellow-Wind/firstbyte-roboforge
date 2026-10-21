@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[ 50%] Built target publisher_node
+[100%] Built target subscriber_node
+-- Install configuration: ""
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/publisher_node
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/lib/topic_pkg/subscriber_node
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/launch
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/launch/pub_sub.launch,xml
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/launch/pub_sub.launch.py
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/launch/pub_sub.launch.yaml
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/package_run_dependencies/topic_pkg
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/parent_prefix_path/topic_pkg
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.sh
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/environment/path.dsv
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.bash
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.sh
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.zsh
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/local_setup.dsv
+-- Installing: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.dsv
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/ament_index/resource_index/packages/topic_pkg
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig.cmake
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig-version.cmake
+-- Up-to-date: /home/ka2e/ros2_ws/install/topic_pkg/share/topic_pkg/package.xml
