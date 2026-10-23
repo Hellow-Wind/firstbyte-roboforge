@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cv_image.dir/src/cv_image.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cv_image[0m
+[100%] Built target cv_image
+-- Install configuration: ""
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/lib/cv_image
+-- Set runtime path of "/home/ka2e/ros2_ws/install/cv_pkg/lib/cv_image" to ""
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/package_run_dependencies/cv_pkg
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/parent_prefix_path/cv_pkg
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/path.sh
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/path.dsv
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.bash
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.sh
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.zsh
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.dsv
+-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/package.dsv
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/packages/cv_pkg
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/cmake/cv_pkgConfig.cmake
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/cmake/cv_pkgConfig-version.cmake
+-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/package.xml

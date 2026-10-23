@@ -1,0 +1,2 @@
+Invoking command in '/home/ka2e/ros2_ws/build/test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/test_pkg -- -j24 -l24
+Invoked command in '/home/ka2e/ros2_ws/build/test_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/test_pkg -- -j24 -l24

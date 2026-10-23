@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/ka2e/ros2_ws/build/test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/test_pkg -- -j24 -l24
+[0.030s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.801s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[1.905s] [100%] Built target number_publisher
+[1.913s] Invoked command in '/home/ka2e/ros2_ws/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/test_pkg -- -j24 -l24
+[1.919s] Invoking command in '/home/ka2e/ros2_ws/build/test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/test_pkg
+[1.920s] -- Install configuration: ""
+[1.920s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/lib/test_pkg/number_publisher
+[1.921s] -- Set runtime path of "/home/ka2e/ros2_ws/install/test_pkg/lib/test_pkg/number_publisher" to ""
+[1.921s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/ament_index/resource_index/package_run_dependencies/test_pkg
+[1.921s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/ament_index/resource_index/parent_prefix_path/test_pkg
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/environment/ament_prefix_path.sh
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/environment/ament_prefix_path.dsv
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/environment/path.sh
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/environment/path.dsv
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/local_setup.bash
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/local_setup.sh
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/local_setup.zsh
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/local_setup.dsv
+[1.922s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/package.dsv
+[1.923s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/ament_index/resource_index/packages/test_pkg
+[1.923s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/cmake/test_pkgConfig.cmake
+[1.923s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/cmake/test_pkgConfig-version.cmake
+[1.923s] -- Installing: /home/ka2e/ros2_ws/install/test_pkg/share/test_pkg/package.xml
+[1.924s] Invoked command in '/home/ka2e/ros2_ws/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/test_pkg
