@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cv_image"
+			"path" : "cv_hsv"
 		}
 	],
 	"backtrace" : 1,
@@ -30,19 +30,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 21,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 19,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -270,7 +270,7 @@
 			]
 		}
 	],
-	"id" : "cv_image::@6890427a1f51a3e7e1df",
+	"id" : "cv_hsv::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -904,8 +904,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "cv_image",
-	"nameOnDisk" : "cv_image",
+	"name" : "cv_hsv",
+	"nameOnDisk" : "cv_hsv",
 	"paths" : 
 	{
 		"build" : ".",
@@ -926,7 +926,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/cv_image.cpp",
+			"path" : "src/cv_hsv.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000070] (-) JobUnselected: {'identifier': 'imu_pkg'}
+[0.000083] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000090] (-) JobUnselected: {'identifier': 'my_pkg'}
+[0.000095] (-) JobUnselected: {'identifier': 'test_pkg'}
+[0.000101] (-) JobUnselected: {'identifier': 'topic_pkg'}
+[0.000106] (-) JobUnselected: {'identifier': 'vel_pkg'}
+[0.000111] (-) JobUnselected: {'identifier': 'wpr_simulation2'}
+[0.000117] (cv_pkg) JobQueued: {'identifier': 'cv_pkg', 'dependencies': OrderedDict()}
+[0.000757] (cv_pkg) JobStarted: {'identifier': 'cv_pkg'}
+[0.004264] (cv_pkg) JobProgress: {'identifier': 'cv_pkg', 'progress': 'cmake'}
+[0.004409] (cv_pkg) JobProgress: {'identifier': 'cv_pkg', 'progress': 'build'}
+[0.004720] (cv_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ka2e/ros2_ws/build/cv_pkg', '--', '-j24', '-l24'], 'cwd': '/home/ka2e/ros2_ws/build/cv_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1909'), ('SYSTEMD_EXEC_PID', '2225'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6742'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:5518'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ka2e/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2202,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2202'), ('INVOCATION_ID', '127b0a80430341cc8d222b6c0daf10b6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c152bee1-d17c-4f00-99b4-d26b3b7bf1ba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('DRI_PRIME', 'pci-0000_00_02_0'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ka2e/ros2_ws/build/cv_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.021271] (cv_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.077327] (cv_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.088662] (cv_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.089604] (cv_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.091995] (cv_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.095635] (cv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.100024] (-) TimerEvent: {}
+[0.100396] (cv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.114467] (cv_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.115046] (cv_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.158714] (cv_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.178948] (cv_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.190056] (cv_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.199617] (cv_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.200077] (-) TimerEvent: {}
+[0.249823] (cv_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.249964] (cv_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.249998] (cv_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.251976] (cv_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.253000] (cv_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.253062] (cv_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.253342] (cv_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.254174] (cv_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.268164] (cv_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.268226] (cv_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ka2e/ros2_ws/build/cv_pkg\n'}
+[0.288474] (cv_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cv_image\x1b[0m\n'}
+[0.293819] (cv_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cv_hsv.dir/src/cv_hsv.cpp.o\x1b[0m\n'}
+[0.295866] (cv_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cv_image.dir/src/cv_image.cpp.o\x1b[0m\n'}
+[0.300155] (-) TimerEvent: {}
+[0.400353] (-) TimerEvent: {}
+[0.500956] (-) TimerEvent: {}
+[0.601309] (-) TimerEvent: {}
+[0.701714] (-) TimerEvent: {}
+[0.802080] (-) TimerEvent: {}
+[0.902398] (-) TimerEvent: {}
+[1.002728] (-) TimerEvent: {}
+[1.103153] (-) TimerEvent: {}
+[1.203481] (-) TimerEvent: {}
+[1.303877] (-) TimerEvent: {}
+[1.404222] (-) TimerEvent: {}
+[1.504619] (-) TimerEvent: {}
+[1.604956] (-) TimerEvent: {}
+[1.705418] (-) TimerEvent: {}
+[1.805854] (-) TimerEvent: {}
+[1.907462] (-) TimerEvent: {}
+[2.007814] (-) TimerEvent: {}
+[2.108261] (-) TimerEvent: {}
+[2.208722] (-) TimerEvent: {}
+[2.309176] (-) TimerEvent: {}
+[2.409599] (-) TimerEvent: {}
+[2.510032] (-) TimerEvent: {}
+[2.610493] (-) TimerEvent: {}
+[2.711016] (-) TimerEvent: {}
+[2.811458] (-) TimerEvent: {}
+[2.911850] (-) TimerEvent: {}
+[3.012260] (-) TimerEvent: {}
+[3.112691] (-) TimerEvent: {}
+[3.213118] (-) TimerEvent: {}
+[3.313544] (-) TimerEvent: {}
+[3.413975] (-) TimerEvent: {}
+[3.514396] (-) TimerEvent: {}
+[3.614874] (-) TimerEvent: {}
+[3.715307] (-) TimerEvent: {}
+[3.817035] (-) TimerEvent: {}
+[3.917471] (-) TimerEvent: {}
+[4.005154] (cv_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cv_hsv\x1b[0m\n'}
+[4.007724] (cv_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cv_image\x1b[0m\n'}
+[4.017524] (-) TimerEvent: {}
+[4.117884] (-) TimerEvent: {}
+[4.218335] (-) TimerEvent: {}
+[4.318767] (-) TimerEvent: {}
+[4.419203] (-) TimerEvent: {}
+[4.426004] (cv_pkg) StdoutLine: {'line': b'[100%] Built target cv_hsv\n'}
+[4.428381] (cv_pkg) StdoutLine: {'line': b'[100%] Built target cv_image\n'}
+[4.435044] (cv_pkg) CommandEnded: {'returncode': 0}
+[4.435277] (cv_pkg) JobProgress: {'identifier': 'cv_pkg', 'progress': 'install'}
+[4.439676] (cv_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ka2e/ros2_ws/build/cv_pkg'], 'cwd': '/home/ka2e/ros2_ws/build/cv_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ka2e'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ka2e'), ('OLDPWD', '/home/ka2e'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1909'), ('SYSTEMD_EXEC_PID', '2225'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6742'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ka2e'), ('JOURNAL_STREAM', '8:5518'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ka2e'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ka2e/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ka2e-Legion-Y9000P-IAX10:@/tmp/.ICE-unix/2202,unix/ka2e-Legion-Y9000P-IAX10:/tmp/.ICE-unix/2202'), ('INVOCATION_ID', '127b0a80430341cc8d222b6c0daf10b6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c152bee1-d17c-4f00-99b4-d26b3b7bf1ba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('DRI_PRIME', 'pci-0000_00_02_0'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ka2e/ros2_ws/build/cv_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.443189] (cv_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.443242] (cv_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_image\n'}
+[4.445019] (cv_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_image" to ""\n'}
+[4.445062] (cv_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_hsv\n'}
+[4.446784] (cv_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_hsv" to ""\n'}
+[4.446835] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/package_run_dependencies/cv_pkg\n'}
+[4.446865] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/parent_prefix_path/cv_pkg\n'}
+[4.446910] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/ament_prefix_path.sh\n'}
+[4.446938] (cv_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/ament_prefix_path.dsv\n'}
+[4.446964] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/path.sh\n'}
+[4.447012] (cv_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/path.dsv\n'}
+[4.447042] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.bash\n'}
+[4.447071] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.sh\n'}
+[4.447105] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.zsh\n'}
+[4.447133] (cv_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.dsv\n'}
+[4.447222] (cv_pkg) StdoutLine: {'line': b'-- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/package.dsv\n'}
+[4.447299] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/packages/cv_pkg\n'}
+[4.447325] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/cmake/cv_pkgConfig.cmake\n'}
+[4.447346] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/cmake/cv_pkgConfig-version.cmake\n'}
+[4.447365] (cv_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/package.xml\n'}
+[4.448260] (cv_pkg) CommandEnded: {'returncode': 0}
+[4.458258] (cv_pkg) JobEnded: {'identifier': 'cv_pkg', 'rc': 0}
+[4.458585] (-) EventReactorShutdown: {}

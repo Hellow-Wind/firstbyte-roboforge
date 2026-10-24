@@ -210,6 +210,43 @@ cv_image/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_image.dir/build.make CMakeFiles/cv_image.dir/build
 .PHONY : cv_image/fast
 
+#=============================================================================
+# Target rules for targets named cv_hsv
+
+# Build rule for target.
+cv_hsv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cv_hsv
+.PHONY : cv_hsv
+
+# fast build rule for target.
+cv_hsv/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_hsv.dir/build.make CMakeFiles/cv_hsv.dir/build
+.PHONY : cv_hsv/fast
+
+src/cv_hsv.o: src/cv_hsv.cpp.o
+.PHONY : src/cv_hsv.o
+
+# target to build an object file
+src/cv_hsv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_hsv.dir/build.make CMakeFiles/cv_hsv.dir/src/cv_hsv.cpp.o
+.PHONY : src/cv_hsv.cpp.o
+
+src/cv_hsv.i: src/cv_hsv.cpp.i
+.PHONY : src/cv_hsv.i
+
+# target to preprocess a source file
+src/cv_hsv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_hsv.dir/build.make CMakeFiles/cv_hsv.dir/src/cv_hsv.cpp.i
+.PHONY : src/cv_hsv.cpp.i
+
+src/cv_hsv.s: src/cv_hsv.cpp.s
+.PHONY : src/cv_hsv.s
+
+# target to generate assembly for a file
+src/cv_hsv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_hsv.dir/build.make CMakeFiles/cv_hsv.dir/src/cv_hsv.cpp.s
+.PHONY : src/cv_hsv.cpp.s
+
 src/cv_image.o: src/cv_image.cpp.o
 .PHONY : src/cv_image.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... cv_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... cv_hsv"
 	@echo "... cv_image"
+	@echo "... src/cv_hsv.o"
+	@echo "... src/cv_hsv.i"
+	@echo "... src/cv_hsv.s"
 	@echo "... src/cv_image.o"
 	@echo "... src/cv_image.i"
 	@echo "... src/cv_image.s"

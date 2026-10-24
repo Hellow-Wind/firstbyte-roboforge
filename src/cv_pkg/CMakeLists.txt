@@ -18,7 +18,12 @@ find_package(OpenCV 4.5 REQUIRED)
 add_executable(cv_image src/cv_image.cpp)
 ament_target_dependencies(cv_image "rclcpp" "sensor_msgs" "cv_bridge" "OpenCV")
 
-install(TARGETS cv_image
+add_executable(cv_hsv src/cv_hsv.cpp)
+ament_target_dependencies(cv_hsv "rclcpp" "sensor_msgs" "cv_bridge" "OpenCV")
+
+install(TARGETS 
+cv_image
+cv_hsv
 DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

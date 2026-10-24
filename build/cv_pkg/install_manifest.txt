@@ -1,4 +1,5 @@
 /home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_image
+/home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_hsv
 /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/package_run_dependencies/cv_pkg
 /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/parent_prefix_path/cv_pkg
 /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/ament_prefix_path.sh

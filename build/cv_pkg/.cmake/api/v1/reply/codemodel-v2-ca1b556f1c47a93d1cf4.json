@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-b1af86de4c31adb80393.json",
+					"jsonFile" : "directory-.-8d599c3ba4a9084d2d13.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -43,8 +45,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "cv_hsv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cv_hsv-cabdbbaaf7eeec1401c3.json",
+					"name" : "cv_hsv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "cv_image::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cv_image-7e00dd833f234aa90035.json",
+					"jsonFile" : "target-cv_image-e55d49bbb926988dd39a.json",
 					"name" : "cv_image",
 					"projectIndex" : 0
 				},
