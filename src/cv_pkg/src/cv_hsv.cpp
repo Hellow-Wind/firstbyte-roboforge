@@ -23,10 +23,10 @@ void CamRGBCallback(const sensor_msgs::msg::Image::SharedPtr msg)
     cv::Mat imgOriginal = cv_ptr->image;
 
     cv::Mat imgHSV;
-    cvtColor(imgOriginal,imgHSV,cv::COLOR_BGR2HSV);
+    cv::cvtColor(imgOriginal,imgHSV,cv::COLOR_BGR2HSV);
 
     std::vector<cv::Mat> hsvSplit;
-    split(imgHSV,hsvSplit);
+    cv::split(imgHSV,hsvSplit);
     cv::equalizeHist(hsvSplit[2],hsvSplit[2]);
     cv::merge(hsvSplit,imgHSV);
 
