@@ -15,6 +15,10 @@ public:
 private:
     void ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg);
 
+    std::vector<cv::Point> FindTargets(const cv::Mat& imgHSV);
+
+    void DrawDebug(cv::Mat& imgOriginal, const std::vector<cv::Point>& targets);
+
     //HSV上下限制
     //mask1
     int iLowH_m1_ = 0;

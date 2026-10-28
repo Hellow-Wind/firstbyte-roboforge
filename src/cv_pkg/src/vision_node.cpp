@@ -1,4 +1,6 @@
 #include<cv_pkg/vision_node.hpp>
+#include<algorithm>
+
 
 VisionNode::VisionNode() : Node("vision_node")
 {
@@ -8,12 +10,9 @@ VisionNode::VisionNode() : Node("vision_node")
         std::bind(&VisionNode::ImageCallback,this,std::placeholders::_1));
 
 }
-void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
-{
-    cv::Mat imgOriginal = cv_bridge::toCvCopy(msg,"bgr8")->image;
 
-    cv::Mat imgHSV;
-    cv::cvtColor(imgOriginal,imgHSV,cv::COLOR_BGR2HSV);
+std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
+{
 
     cv::Mat mask,mask_high,mask_low;
     cv::inRange(imgHSV,cv::Scalar(iLowH_m1_,iLowS_m1_,iLowV_m1_),cv::Scalar(iHighH_m1_,iHighS_m1_,iHighV_m1_),mask_high);
@@ -45,45 +44,79 @@ void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
 
 
     }
-    if (!all_targets.empty())
-    {
-        std::sort(all_targets.begin(), all_targets.end(), 
-            [](const cv::Point& a, const cv::Point& b)
-            {
-                return a.x < b.x;
-            });
-        std::vector<cv::Point> final_targets;
-    
-        for (auto& p : all_targets)
+
+    if(all_targets.empty())return {};
+
+    std::sort(all_targets.begin(), all_targets.end(), 
+        [](const cv::Point& a, const cv::Point& b)
         {
-            if (final_targets.empty())
+            return a.x < b.x;
+        });    
+    
+
+    std::vector<cv::Point> final_targets;
+    for (auto& p : all_targets)
+    {
+        if (final_targets.empty())
+        {
+            final_targets.push_back(p);
+        }
+        else
+        {
+            cv::Point last_p = final_targets.back();
+        
+            int dx = std::abs(p.x - last_p.x);
+        
+            if (dx < dis_deadzone)
             {
-                final_targets.push_back(p);
+                continue; 
             }
             else
             {
-                cv::Point last_p = final_targets.back();
-            
-                int dx = std::abs(p.x - last_p.x);
-            
-                if (dx < dis_deadzone)
-                {
-                    continue; 
-                }
-                else
-                {
-                    final_targets.push_back(p);
-                }
+                final_targets.push_back(p);
             }
         }
+    }
 
-        RCLCPP_INFO(get_logger(), "原始碎块有 %zu 个，合并后确认 %zu 个真靶子：", all_targets.size(), final_targets.size());
+    RCLCPP_INFO(get_logger(), "原始碎块有 %zu 个，合并后确认 %zu 个真靶子：", all_targets.size(), final_targets.size());
+
+    cv::imshow("Mask", mask); 
+    cv::waitKey(1);
+
+    return final_targets;
+
+}
+
+
+void VisionNode::DrawDebug(cv::Mat& imgOriginal,const std::vector<cv::Point>& targets)
+{
+    for (size_t i=0; i<targets.size(); i++) {
+        cv::drawMarker(imgOriginal,targets[i],cv::Scalar(0,255,0),cv::MARKER_CROSS,20,2);
+    }
+}
+
+
+void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
+{
+    //=================================== 传图 ==================================
+    cv::Mat imgOriginal = cv_bridge::toCvCopy(msg,"bgr8")->image;
+
+    cv::Mat imgHSV;
+    cv::cvtColor(imgOriginal,imgHSV,cv::COLOR_BGR2HSV);
+
+    //=================================== 图像处理 ==================================
+    std::vector<cv::Point> final_targets = FindTargets(imgHSV);
+
+
+    if (!final_targets.empty())
+    {
+
 
         auto msg_array = std_msgs::msg::Int32MultiArray();
 
         for (size_t i=0;i<final_targets.size();i++)
         {
-            
+
 
 
             RCLCPP_INFO(get_logger(), "靶子 %zu: X=%d, Y=%d", i+1, final_targets[i].x, final_targets[i].y);
@@ -94,13 +127,14 @@ void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
 
 
         pub_targets_->publish(msg_array);
+
+        DrawDebug(imgOriginal,final_targets);
     }
     else
     {
         RCLCPP_INFO(get_logger(), "未找到目标");
     }
     cv::imshow("RGB", imgOriginal);
-    cv::imshow("Mask", mask); 
     cv::waitKey(1);
 
 
