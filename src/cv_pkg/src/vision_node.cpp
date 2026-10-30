@@ -18,7 +18,7 @@ VisionNode::VisionNode(const std::string& node_name) : Node(node_name)
 void VisionNode::ModeCallback(const std_msgs::msg::Int32::SharedPtr msg)
 {
     current_mode_ = msg->data;
-    RCLCPP_INFO(get_logger(),"【系统提示】视觉模式已切换为: %d", current_mode_);
+    RCLCPP_INFO(get_logger(),"【系统提示】视觉模式已切换为: %d",current_mode_);
 }
 
 //图像处理+寻找坐标
@@ -101,7 +101,7 @@ std::vector<cv::Point> VisionNode::FilterTargets(const std::vector<cv::Point>& a
         }
     }
 
-    RCLCPP_INFO(get_logger(), "原始碎块有 %zu 个，合并后确认 %zu 个真靶子：", all_targets.size(), final_targets.size());
+    RCLCPP_INFO(get_logger(),"原始碎块有 %zu 个，合并后确认 %zu 个真靶子：",all_targets.size(),final_targets.size());
 
     return final_targets;
 }
@@ -109,7 +109,8 @@ std::vector<cv::Point> VisionNode::FilterTargets(const std::vector<cv::Point>& a
 //画十字
 void VisionNode::DrawDebug(cv::Mat& imgOriginal,const std::vector<cv::Point>& targets)
 {
-    for (size_t i=0; i<targets.size(); i++) {
+    for (size_t i=0;i<targets.size();i++)
+    {
         cv::drawMarker(imgOriginal,targets[i],cv::Scalar(0,255,0),cv::MARKER_CROSS,20,2);
     }
 }
@@ -127,7 +128,7 @@ void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
     //图像处理
     std::vector<cv::Point> all_targets = FindTargets(imgHSV);
     
-
+    //分任务处理
     if(!all_targets.empty())
     {
         if(current_mode_==MODE_3_TARGETS)
@@ -162,10 +163,6 @@ void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
         }
     }
 
-
-
     cv::imshow("RGB", imgOriginal);
     cv::waitKey(1);
 }
-
-
