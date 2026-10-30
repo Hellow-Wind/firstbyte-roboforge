@@ -1,7 +1,7 @@
 #include<cv_pkg/vision_node.hpp>
 #include<algorithm>
 
-
+//构造函数
 VisionNode::VisionNode() : Node("vision_node")
 {
     pub_targets_ = create_publisher<std_msgs::msg::Int32MultiArray>("/target_points", 10);
@@ -11,6 +11,7 @@ VisionNode::VisionNode() : Node("vision_node")
 
 }
 
+//图像处理+寻找坐标+筛选
 std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
 {
 
@@ -53,7 +54,16 @@ std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
             return a.x < b.x;
         });    
     
+    
+    cv::imshow("Mask", mask); 
+    cv::waitKey(1);
 
+    return all_targets;
+}
+
+//筛选坐标
+std::vector<cv::Point> VisionNode::FilterTargets(const std::vector<cv::Point>& all_targets)
+{
     std::vector<cv::Point> final_targets;
     for (auto& p : all_targets)
     {
@@ -80,14 +90,13 @@ std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
 
     RCLCPP_INFO(get_logger(), "原始碎块有 %zu 个，合并后确认 %zu 个真靶子：", all_targets.size(), final_targets.size());
 
-    cv::imshow("Mask", mask); 
-    cv::waitKey(1);
+
 
     return final_targets;
-
 }
 
 
+//画十字
 void VisionNode::DrawDebug(cv::Mat& imgOriginal,const std::vector<cv::Point>& targets)
 {
     for (size_t i=0; i<targets.size(); i++) {
@@ -98,16 +107,17 @@ void VisionNode::DrawDebug(cv::Mat& imgOriginal,const std::vector<cv::Point>& ta
 
 void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
 {
-    //=================================== 传图 ==================================
+    //传图
     cv::Mat imgOriginal = cv_bridge::toCvCopy(msg,"bgr8")->image;
 
     cv::Mat imgHSV;
     cv::cvtColor(imgOriginal,imgHSV,cv::COLOR_BGR2HSV);
 
-    //=================================== 图像处理 ==================================
-    std::vector<cv::Point> final_targets = FindTargets(imgHSV);
+    //图像处理
+    std::vector<cv::Point> all_targets = FindTargets(imgHSV);
+    std::vector<cv::Point> final_targets = FilterTargets(all_targets);
 
-
+    //发送坐标
     if (!final_targets.empty())
     {
 
