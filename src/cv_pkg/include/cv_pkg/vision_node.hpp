@@ -18,6 +18,8 @@ public:
     VisionNode(const std::string& node_name = "vision_node");
 
 private:
+    bool debug_mode_ = true;
+
     void ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg);
 
     void ModeCallback(const std_msgs::msg::Int32::SharedPtr msg);
