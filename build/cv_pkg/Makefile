@@ -223,6 +223,19 @@ cv_hsv/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_hsv.dir/build.make CMakeFiles/cv_hsv.dir/build
 .PHONY : cv_hsv/fast
 
+#=============================================================================
+# Target rules for targets named vision_node
+
+# Build rule for target.
+vision_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vision_node
+.PHONY : vision_node
+
+# fast build rule for target.
+vision_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/build
+.PHONY : vision_node/fast
+
 src/cv_hsv.o: src/cv_hsv.cpp.o
 .PHONY : src/cv_hsv.o
 
@@ -271,6 +284,54 @@ src/cv_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_image.dir/build.make CMakeFiles/cv_image.dir/src/cv_image.cpp.s
 .PHONY : src/cv_image.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/vision_node.o: src/vision_node.cpp.o
+.PHONY : src/vision_node.o
+
+# target to build an object file
+src/vision_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/src/vision_node.cpp.o
+.PHONY : src/vision_node.cpp.o
+
+src/vision_node.i: src/vision_node.cpp.i
+.PHONY : src/vision_node.i
+
+# target to preprocess a source file
+src/vision_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/src/vision_node.cpp.i
+.PHONY : src/vision_node.cpp.i
+
+src/vision_node.s: src/vision_node.cpp.s
+.PHONY : src/vision_node.s
+
+# target to generate assembly for a file
+src/vision_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/src/vision_node.cpp.s
+.PHONY : src/vision_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +349,19 @@ help:
 	@echo "... uninstall"
 	@echo "... cv_hsv"
 	@echo "... cv_image"
+	@echo "... vision_node"
 	@echo "... src/cv_hsv.o"
 	@echo "... src/cv_hsv.i"
 	@echo "... src/cv_hsv.s"
 	@echo "... src/cv_image.o"
 	@echo "... src/cv_image.i"
 	@echo "... src/cv_image.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/vision_node.o"
+	@echo "... src/vision_node.i"
+	@echo "... src/vision_node.s"
 .PHONY : help
 
 

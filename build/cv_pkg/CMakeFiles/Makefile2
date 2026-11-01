@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/ka2e/ros2_ws/build/cv_pkg
 # The main recursive "all" target.
 all: CMakeFiles/cv_image.dir/all
 all: CMakeFiles/cv_hsv.dir/all
+all: CMakeFiles/vision_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cv_pkg_uninstall.dir/clean
 clean: CMakeFiles/cv_image.dir/clean
 clean: CMakeFiles/cv_hsv.dir/clean
+clean: CMakeFiles/vision_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +183,32 @@ cv_hsv: CMakeFiles/cv_hsv.dir/rule
 CMakeFiles/cv_hsv.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv_hsv.dir/build.make CMakeFiles/cv_hsv.dir/clean
 .PHONY : CMakeFiles/cv_hsv.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/vision_node.dir
+
+# All Build rule for target.
+CMakeFiles/vision_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ka2e/ros2_ws/build/cv_pkg/CMakeFiles --progress-num=5,6,7 "Built target vision_node"
+.PHONY : CMakeFiles/vision_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/vision_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka2e/ros2_ws/build/cv_pkg/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/vision_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka2e/ros2_ws/build/cv_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/vision_node.dir/rule
+
+# Convenience name for target.
+vision_node: CMakeFiles/vision_node.dir/rule
+.PHONY : vision_node
+
+# clean rule for target.
+CMakeFiles/vision_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/clean
+.PHONY : CMakeFiles/vision_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

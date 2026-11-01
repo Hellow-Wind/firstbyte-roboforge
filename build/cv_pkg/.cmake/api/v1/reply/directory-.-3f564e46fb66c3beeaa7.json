@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 24,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 41,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -245,6 +245,18 @@
 			],
 			"targetId" : "cv_hsv::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cv_pkg",
+			"paths" : 
+			[
+				"vision_node"
+			],
+			"targetId" : "vision_node::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
 			"type" : "target"
 		},
 		{

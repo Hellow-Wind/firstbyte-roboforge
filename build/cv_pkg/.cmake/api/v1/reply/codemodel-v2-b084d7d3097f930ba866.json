@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-8d599c3ba4a9084d2d13.json",
+					"jsonFile" : "directory-.-3f564e46fb66c3beeaa7.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -19,7 +19,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -37,7 +38,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -46,14 +48,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cv_hsv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cv_hsv-cabdbbaaf7eeec1401c3.json",
+					"jsonFile" : "target-cv_hsv-2ab4180e87aaca5d083b.json",
 					"name" : "cv_hsv",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "cv_image::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cv_image-e55d49bbb926988dd39a.json",
+					"jsonFile" : "target-cv_image-219bae10c2c958e93090.json",
 					"name" : "cv_image",
 					"projectIndex" : 0
 				},
@@ -69,6 +71,13 @@
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-uninstall-698eb35f178aca86fb64.json",
 					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_node-a985717335e00c30915d.json",
+					"name" : "vision_node",
 					"projectIndex" : 0
 				}
 			]

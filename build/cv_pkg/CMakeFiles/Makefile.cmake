@@ -720,4 +720,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cv_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/cv_image.dir/DependInfo.cmake"
   "CMakeFiles/cv_hsv.dir/DependInfo.cmake"
+  "CMakeFiles/vision_node.dir/DependInfo.cmake"
   )

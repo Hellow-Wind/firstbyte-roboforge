@@ -67,12 +67,15 @@ std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
             return a.x < b.x;
         });    
     
-    
-    cv::imshow("Mask", mask); 
-    cv::waitKey(1);
+    if(debug_mode_){
+        cv::imshow("Mask", mask); 
+        cv::waitKey(1);
+    }
 
     return all_targets;
 }
+
+//
 
 //筛选坐标
 std::vector<cv::Point> VisionNode::FilterTargets(const std::vector<cv::Point>& all_targets)
@@ -163,6 +166,8 @@ void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
         }
     }
 
-    cv::imshow("RGB", imgOriginal);
-    cv::waitKey(1);
+    if(debug_mode_){
+        cv::imshow("RGB", imgOriginal);
+        cv::waitKey(1);
+    }
 }
