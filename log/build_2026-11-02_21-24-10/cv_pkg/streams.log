@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/ka2e/ros2_ws/build/cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/cv_pkg -- -j24 -l24
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target vision_node[0m
+[0.056s] [ 28%] Built target cv_hsv
+[0.056s] [ 57%] Built target cv_image
+[0.060s] [ 71%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[0.060s] [ 85%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/main.cpp.o[0m
+[5.536s] [100%] [32m[1mLinking CXX executable vision_node[0m
+[6.034s] [100%] Built target vision_node
+[6.042s] Invoked command in '/home/ka2e/ros2_ws/build/cv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/cv_pkg -- -j24 -l24
+[6.048s] Invoking command in '/home/ka2e/ros2_ws/build/cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/cv_pkg
+[6.055s] -- Install configuration: ""
+[6.056s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_image
+[6.056s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/cv_hsv
+[6.057s] -- Installing: /home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/vision_node
+[6.059s] -- Set runtime path of "/home/ka2e/ros2_ws/install/cv_pkg/lib/cv_pkg/vision_node" to ""
+[6.059s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/package_run_dependencies/cv_pkg
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/parent_prefix_path/cv_pkg
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/ament_prefix_path.sh
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/ament_prefix_path.dsv
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/path.sh
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/environment/path.dsv
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.bash
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.sh
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.zsh
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/local_setup.dsv
+[6.060s] -- Installing: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/package.dsv
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/ament_index/resource_index/packages/cv_pkg
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/cmake/cv_pkgConfig.cmake
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/cmake/cv_pkgConfig-version.cmake
+[6.060s] -- Up-to-date: /home/ka2e/ros2_ws/install/cv_pkg/share/cv_pkg/package.xml
+[6.062s] Invoked command in '/home/ka2e/ros2_ws/build/cv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/cv_pkg

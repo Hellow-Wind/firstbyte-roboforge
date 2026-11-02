@@ -25,8 +25,10 @@ private:
     void ModeCallback(const std_msgs::msg::Int32::SharedPtr msg);
 
     std::vector<cv::Point> FindTargets(const cv::Mat& imgHSV);
+    void SortTargets(std::vector<cv::Point>& all_targets);
     std::vector<cv::Point> FilterTargets(const std::vector<cv::Point>& all_targets);
     void DrawDebug(cv::Mat& imgOriginal, const std::vector<cv::Point>& targets);
+
 
     //HSV上下限制
     //mask1

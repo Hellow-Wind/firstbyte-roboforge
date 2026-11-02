@@ -61,12 +61,8 @@ std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
 
     if(all_targets.empty())return {};
 
-    std::sort(all_targets.begin(), all_targets.end(), 
-        [](const cv::Point& a, const cv::Point& b)
-        {
-            return a.x < b.x;
-        });    
-    
+    SortTargets(all_targets);
+    //====================================================================
     if(debug_mode_){
         cv::imshow("Mask", mask); 
         cv::waitKey(1);
@@ -75,7 +71,15 @@ std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
     return all_targets;
 }
 
-//
+//排序
+void VisionNode::SortTargets(std::vector<cv::Point>& all_targets)
+{
+    std::sort(all_targets.begin(), all_targets.end(), 
+        [](const cv::Point& a, const cv::Point& b)
+        {
+            return a.x < b.x;
+        });
+}
 
 //筛选坐标
 std::vector<cv::Point> VisionNode::FilterTargets(const std::vector<cv::Point>& all_targets)
