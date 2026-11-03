@@ -1,0 +1,42 @@
+[0.005s] Invoking command in '/home/ka2e/ros2_ws/build/roboforge_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/roboforge_simulation -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/roboforge_simulation
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.222s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.223s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.433s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.482s] -- Added test 'lint_cmake' to check CMake code style
+[0.482s] -- Added test 'xmllint' to check XML markup files
+[0.483s] -- Configuring done
+[0.484s] -- Generating done
+[0.485s] -- Build files have been written to: /home/ka2e/ros2_ws/build/roboforge_simulation
+[0.487s] Invoked command in '/home/ka2e/ros2_ws/build/roboforge_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ka2e/ros2_ws/src/roboforge_simulation -DCMAKE_INSTALL_PREFIX=/home/ka2e/ros2_ws/install/roboforge_simulation
+[0.488s] Invoking command in '/home/ka2e/ros2_ws/build/roboforge_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/roboforge_simulation -- -j24 -l24
+[0.516s] Invoked command in '/home/ka2e/ros2_ws/build/roboforge_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/roboforge_simulation -- -j24 -l24
+[0.520s] Invoking command in '/home/ka2e/ros2_ws/build/roboforge_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/roboforge_simulation
+[0.526s] -- Install configuration: ""
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/ament_index/resource_index/package_run_dependencies/roboforge_simulation
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/ament_index/resource_index/parent_prefix_path/roboforge_simulation
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/ament_prefix_path.sh
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/ament_prefix_path.dsv
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/path.sh
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/path.dsv
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.bash
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.sh
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.zsh
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.dsv
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/package.dsv
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/ament_index/resource_index/packages/roboforge_simulation
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/cmake/roboforge_simulationConfig.cmake
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/cmake/roboforge_simulationConfig-version.cmake
+[0.526s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/package.xml
+[0.527s] Invoked command in '/home/ka2e/ros2_ws/build/roboforge_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/roboforge_simulation

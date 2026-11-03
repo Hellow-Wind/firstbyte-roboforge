@@ -1,0 +1,8 @@
+source;share/roboforge_simulation/hook/cmake_prefix_path.ps1
+source;share/roboforge_simulation/hook/cmake_prefix_path.dsv
+source;share/roboforge_simulation/hook/cmake_prefix_path.sh
+source;share/roboforge_simulation/local_setup.bash
+source;share/roboforge_simulation/local_setup.dsv
+source;share/roboforge_simulation/local_setup.ps1
+source;share/roboforge_simulation/local_setup.sh
+source;share/roboforge_simulation/local_setup.zsh

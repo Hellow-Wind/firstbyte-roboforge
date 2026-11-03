@@ -1,0 +1,27 @@
+[0.005s] Invoking command in '/home/ka2e/ros2_ws/build/roboforge_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/roboforge_simulation -- -j24 -l24
+[0.029s] Invoked command in '/home/ka2e/ros2_ws/build/roboforge_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ka2e/ros2_ws/build/roboforge_simulation -- -j24 -l24
+[0.034s] Invoking command in '/home/ka2e/ros2_ws/build/roboforge_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/roboforge_simulation
+[0.039s] -- Install configuration: ""
+[0.039s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/meshes
+[0.039s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/meshes/target.STL
+[0.039s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/meshes/field.STL
+[0.040s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/worlds
+[0.040s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/worlds/test_field.world
+[0.040s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/launch
+[0.040s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/launch/sim.launch.py
+[0.040s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/ament_index/resource_index/package_run_dependencies/roboforge_simulation
+[0.040s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/ament_index/resource_index/parent_prefix_path/roboforge_simulation
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/ament_prefix_path.sh
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/ament_prefix_path.dsv
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/path.sh
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/environment/path.dsv
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.bash
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.sh
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.zsh
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/local_setup.dsv
+[0.041s] -- Installing: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/package.dsv
+[0.041s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/ament_index/resource_index/packages/roboforge_simulation
+[0.042s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/cmake/roboforge_simulationConfig.cmake
+[0.042s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/cmake/roboforge_simulationConfig-version.cmake
+[0.042s] -- Up-to-date: /home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/package.xml
+[0.042s] Invoked command in '/home/ka2e/ros2_ws/build/roboforge_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ka2e/ros2_ws/build/roboforge_simulation
