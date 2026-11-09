@@ -18,20 +18,12 @@ find_package(OpenCV REQUIRED)
 
 include_directories(include)
 
-add_executable(cv_image src/cv_image.cpp)
-ament_target_dependencies(cv_image "rclcpp" "sensor_msgs" "cv_bridge" "OpenCV")
-
-add_executable(cv_hsv src/cv_hsv.cpp)
-ament_target_dependencies(cv_hsv "rclcpp" "sensor_msgs" "cv_bridge" "OpenCV")
-
 add_executable(vision_node 
 src/vision_node.cpp
-src/main.cpp)
+src/vision_main.cpp)
 ament_target_dependencies(vision_node "rclcpp" "sensor_msgs" "std_msgs" "cv_bridge" "OpenCV")
 
 install(TARGETS 
-cv_image
-cv_hsv
 vision_node
 DESTINATION lib/${PROJECT_NAME})
 
