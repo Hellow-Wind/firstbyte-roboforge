@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="target">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0.5 0 0 0</pose> <!-- 抬高0.5米，让它立在地上 -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <!-- 绝对路径，请确保文件名大小写一致 -->
+            <uri>file:///home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/meshes/target.STL</uri>
+            <scale>1 1 1</scale> <!-- 如果太大，就改小，比如 0.01 -->
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name> <!-- 强行上红色 -->
+          </script>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>file:///home/ka2e/ros2_ws/install/roboforge_simulation/share/roboforge_simulation/meshes/target.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
