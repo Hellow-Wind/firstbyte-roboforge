@@ -1,0 +1,21 @@
+# firstbyte 核心算法与仿真仓库
+
+## 环境要求
+- Ubuntu 22.04
+- ROS2 Humble
+- Gazebo 11
+- OpenCV 4.5+
+
+## 编译与运行指南
+1. 请先确保安装了必要的依赖：
+   sudo apt install ros-humble-cv-bridge ros-humble-usb-cam ros-humble-gazebo-ros-pkgs libopencv-dev
+
+2. 编译工作空间：
+   cd ~/roboforge_ws
+   colcon build --packages-select cv_pkg roboforge_simulation
+   source install/setup.bash
+
+3. 运行仿真与视觉（需开三个终端）：
+   - 终端1: ros2 launch roboforge_simulation sim.launch.py
+   - 终端2: ros2 run topic_tools relay /camera/image_raw /image_raw
+   - 终端3: ros2 run cv_pkg vision_node
