@@ -12,9 +12,10 @@
 class VisionNode:public rclcpp::Node
 {
 public:
+    /*
     static constexpr int MODE_3_TARGETS = 1;
     static constexpr int MODE_1_TARGET = 2; 
-
+    */
     VisionNode(const std::string& node_name = "vision_node");
 
 private:
@@ -24,10 +25,9 @@ private:
 
     void ModeCallback(const std_msgs::msg::Int32::SharedPtr msg);
 
-    std::vector<cv::Point> FindTargets(const cv::Mat& imgHSV);
-    void SortTargets(std::vector<cv::Point>& all_targets);
-    std::vector<cv::Point> FilterTargets(const std::vector<cv::Point>& all_targets);
-    void DrawDebug(cv::Mat& imgOriginal, const std::vector<cv::Point>& targets);
+    cv::Point FindTargets(const cv::Mat& imgHSV);
+    
+    void DrawDebug(cv::Mat& imgOriginal, const cv::Point target);
 
 
     //HSV上下限制
@@ -53,16 +53,18 @@ private:
     //距离死区
     int dis_deadzone = 50;
 
-    //
+    //长宽比死区
+    double aspect_ratio_min_ = 0.7;
+    double aspect_ratio_max_ = 1.3;
     
 
     //
-    int current_mode_ = MODE_3_TARGETS;
+    //int current_mode_ = MODE_3_TARGETS;
 
     //
-    rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr pub_targets_;
+    rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr pub_target_;
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr sub_image_;
-    rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr sub_mode_;
+    //rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr sub_mode_;
 
 };
 

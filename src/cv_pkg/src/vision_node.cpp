@@ -4,25 +4,19 @@
 //构造函数
 VisionNode::VisionNode(const std::string& node_name) : Node(node_name)
 {
-    pub_targets_ = create_publisher<std_msgs::msg::Int32MultiArray>("/target_points", 10);
+    pub_target_ = create_publisher<std_msgs::msg::Int32>("/target_points", 10);
 
     sub_image_ = create_subscription<sensor_msgs::msg::Image>("/image_raw",10,
         std::bind(&VisionNode::ImageCallback,this,std::placeholders::_1));
-
+    /*
     sub_mode_ = create_subscription<std_msgs::msg::Int32>("/set_mode",10,
         std::bind(&VisionNode::ModeCallback,this,std::placeholders::_1));
-
+    */
 }
 
-//模式判断
-void VisionNode::ModeCallback(const std_msgs::msg::Int32::SharedPtr msg)
-{
-    current_mode_ = msg->data;
-    RCLCPP_INFO(get_logger(),"【系统提示】视觉模式已切换为: %d",current_mode_);
-}
 
 //图像处理+寻找坐标
-std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
+cv::Point VisionNode::FindTargets(const cv::Mat& imgHSV)
 {
     //颜色滤波
     cv::Mat mask,mask_high,mask_low;
@@ -39,87 +33,48 @@ std::vector<cv::Point> VisionNode::FindTargets(const cv::Mat& imgHSV)
     std::vector<std::vector<cv::Point>> contours;
     cv::findContours(mask,contours,cv::RETR_EXTERNAL,cv::CHAIN_APPROX_SIMPLE);
 
-    //目标
-    std::vector<cv::Point> all_targets;
-    
-    for(size_t i=0;i<contours.size();i++)
+    //目标（最大面积）
+    double target_area = 0;
+    cv::Point target = {-1,-1}; 
+
+    for(size_t i=0;i<contours.size();++i)
     {
         double area = cv::contourArea(contours[i]);
 
-        if(area>min_area&&area<max_area)
+        if(area>min_area && area<max_area)
         {
             cv::Rect rect = cv::boundingRect(contours[i]);
 
-            int cx = rect.x + rect.width/2;
-            int cy = rect.y + rect.height/2;
+            int width = rect.width;
+            int height = rect.height;
+            double rate = 1.0*height/width;
+            if(rate<=aspect_ratio_max_ && rate>=aspect_ratio_min_)
+            {
+                int cx = rect.x + width/2;
+                int cy = rect.y + height/2;
 
-            all_targets.push_back(cv::Point(cx, cy));
+                if(target_area<area)
+                {
+                    target_area = area;
+                    target = {cx,cy};
+                }
+            }
         }
-
-
     }
 
-    if(all_targets.empty())return {};
-
-    SortTargets(all_targets);
-    //====================================================================
     if(debug_mode_){
         cv::imshow("Mask", mask); 
         cv::waitKey(1);
     }
 
-    return all_targets;
+    return target;
 }
 
-//排序
-void VisionNode::SortTargets(std::vector<cv::Point>& all_targets)
-{
-    std::sort(all_targets.begin(), all_targets.end(), 
-        [](const cv::Point& a, const cv::Point& b)
-        {
-            return a.x < b.x;
-        });
-}
-
-//筛选坐标
-std::vector<cv::Point> VisionNode::FilterTargets(const std::vector<cv::Point>& all_targets)
-{
-    std::vector<cv::Point> final_targets;
-    for (auto& p : all_targets)
-    {
-        if (final_targets.empty())
-        {
-            final_targets.push_back(p);
-        }
-        else
-        {
-            cv::Point last_p = final_targets.back();
-        
-            int dx = std::abs(p.x - last_p.x);
-        
-            if (dx < dis_deadzone)
-            {
-                continue; 
-            }
-            else
-            {
-                final_targets.push_back(p);
-            }
-        }
-    }
-
-    RCLCPP_INFO(get_logger(),"原始碎块有 %zu 个，合并后确认 %zu 个真靶子：",all_targets.size(),final_targets.size());
-
-    return final_targets;
-}
 
 //画十字
-void VisionNode::DrawDebug(cv::Mat& imgOriginal,const std::vector<cv::Point>& targets)
+void VisionNode::DrawDebug(cv::Mat& imgOriginal,const cv::Point target)
 {
-    for (size_t i=0;i<targets.size();i++)
-    {
-        cv::drawMarker(imgOriginal,targets[i],cv::Scalar(0,255,0),cv::MARKER_CROSS,20,2);
-    }
+    cv::drawMarker(imgOriginal,target,cv::Scalar(0,255,0),cv::MARKER_CROSS,20,2);
 }
 
 //视觉识别操作
@@ -133,42 +88,27 @@ void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
     cv::cvtColor(imgOriginal,imgHSV,cv::COLOR_BGR2HSV);
 
     //图像处理
-    std::vector<cv::Point> all_targets = FindTargets(imgHSV);
+    cv::Point target = FindTargets(imgHSV);
     
-    //分任务处理
-    if(!all_targets.empty())
+    if(target.x!=-1)
     {
-        if(current_mode_==MODE_3_TARGETS)
-        {
-            //筛选去重
-            std::vector<cv::Point> final_targets = FilterTargets(all_targets);
-            //发送坐标
-            if (!final_targets.empty())
-            {
-                auto msg_array = std_msgs::msg::Int32MultiArray();
+        auto msg = std_msgs::msg::Int32();
 
-                for (size_t i=0;i<final_targets.size();i++)
-                {
-                    RCLCPP_INFO(get_logger(), "靶子 %zu: X=%d, Y=%d", i+1, final_targets[i].x, final_targets[i].y);
+        msg.data = (target.x < imgOriginal.cols / 3) ? 1 : ((target.x < imgOriginal.cols * 2 / 3) ? 2 : 3);
 
-                    msg_array.data.push_back(final_targets[i].x);
-                    msg_array.data.push_back(final_targets[i].y);
-                }
+        pub_target_->publish(msg);
 
-                pub_targets_->publish(msg_array);
-
-                DrawDebug(imgOriginal,final_targets);
-            }
-            else
-            {
-                RCLCPP_INFO(get_logger(), "未找到目标");
-            }
-        }
-        else if(current_mode_==MODE_1_TARGET)
-        {
-            //打一个
+        if(debug_mode_){
+            DrawDebug(imgOriginal,target);
+            RCLCPP_INFO(get_logger(), "板子在位置编号: %d", msg.data);
         }
     }
+    else
+    {
+        RCLCPP_INFO(get_logger(),"没有找到目标");
+    }
+
+
 
     if(debug_mode_){
         cv::imshow("RGB", imgOriginal);
