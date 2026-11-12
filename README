@@ -11,11 +11,12 @@
    sudo apt install ros-humble-cv-bridge ros-humble-usb-cam ros-humble-gazebo-ros-pkgs libopencv-dev
 
 2. 编译工作空间：
-   cd ~/roboforge_ws
-   colcon build --packages-select cv_pkg roboforge_simulation
+   cd ~/firstbyte_ros2_ws
+   colcon build
    source install/setup.bash
 
-3. 运行仿真与视觉（需开三个终端）：
+3. 运行仿真与视觉：
    - 终端1: ros2 launch roboforge_simulation sim.launch.py
    - 终端2: ros2 run topic_tools relay /camera/image_raw /image_raw
    - 终端3: ros2 run cv_pkg vision_node
+   - 终端4: ros2 topic echo /target_points
