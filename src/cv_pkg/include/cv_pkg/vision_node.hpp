@@ -15,16 +15,18 @@ public:
     VisionNode(const std::string& node_name = "vision_node");
 
 private:
-    bool debug_mode_ = true;
+    //bool debug_mode_ = true;
 
     void ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg);
 
-    void ModeCallback(const std_msgs::msg::Int32::SharedPtr msg);
-
     cv::Point FindTargets(const cv::Mat& imgHSV);
     
-    void DrawDebug(cv::Mat& imgOriginal, const cv::Point target);
+    //void DrawDebug(cv::Mat& imgOriginal, const cv::Point target);
 
+    //变量复用，通过浅拷贝防止重复开内存来提升性能
+    //cv::Mat imgOriginal_;
+    cv::Mat imgHSV_;
+    cv::Mat mask_,mask_high_,mask_low_;
 
     //HSV上下限制
     //mask1
@@ -52,6 +54,9 @@ private:
     //长宽比死区
     double aspect_ratio_min_ = 0.7;
     double aspect_ratio_max_ = 1.3;
+
+    //
+    std_msgs::msg::Int32 msg_;
     
     //
     rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr pub_target_;
