@@ -8,10 +8,6 @@ VisionNode::VisionNode(const std::string& node_name) : Node(node_name)
 
     sub_image_ = create_subscription<sensor_msgs::msg::Image>("/image_raw",10,
         std::bind(&VisionNode::ImageCallback,this,std::placeholders::_1));
-    /*
-    sub_mode_ = create_subscription<std_msgs::msg::Int32>("/set_mode",10,
-        std::bind(&VisionNode::ModeCallback,this,std::placeholders::_1));
-    */
 }
 
 
@@ -25,7 +21,7 @@ cv::Point VisionNode::FindTargets(const cv::Mat& imgHSV)
     cv::bitwise_or(mask_low,mask_high,mask);
 
     //形态学
-    cv::Mat element = cv::getStructuringElement(cv::MORPH_RECT,cv::Size(5,5));
+    cv::Mat element = cv::getStructuringElement(cv::MORPH_RECT,cv::Size(11,11));
     cv::morphologyEx(mask,mask,cv::MORPH_OPEN,element);
     cv::morphologyEx(mask,mask,cv::MORPH_CLOSE,element);
 

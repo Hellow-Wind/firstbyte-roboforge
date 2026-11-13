@@ -12,10 +12,6 @@
 class VisionNode:public rclcpp::Node
 {
 public:
-    /*
-    static constexpr int MODE_3_TARGETS = 1;
-    static constexpr int MODE_1_TARGET = 2; 
-    */
     VisionNode(const std::string& node_name = "vision_node");
 
 private:
@@ -57,14 +53,9 @@ private:
     double aspect_ratio_min_ = 0.7;
     double aspect_ratio_max_ = 1.3;
     
-
-    //
-    //int current_mode_ = MODE_3_TARGETS;
-
     //
     rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr pub_target_;
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr sub_image_;
-    //rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr sub_mode_;
 
 };
 
