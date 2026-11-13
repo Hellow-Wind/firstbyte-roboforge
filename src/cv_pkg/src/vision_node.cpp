@@ -90,7 +90,7 @@ void VisionNode::ImageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
     {
         auto msg = std_msgs::msg::Int32();
 
-        msg.data = (target.x < imgOriginal.cols / 3) ? 1 : ((target.x < imgOriginal.cols * 2 / 3) ? 2 : 3);
+        msg.data = (target.x < imgOriginal.cols / 3) ? 0 : ((target.x < imgOriginal.cols * 2 / 3) ? 1 : 2);
 
         pub_target_->publish(msg);
 
